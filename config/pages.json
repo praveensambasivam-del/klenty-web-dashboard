@@ -1,0 +1,92 @@
+[
+ {
+  "name": "Homepage",
+  "path": "/"
+ },
+ {
+  "name": "SEP Pricing",
+  "path": "/sales-engagement-platform/pricing/"
+ },
+ {
+  "name": "Dialer Pricing",
+  "path": "/sales-dialer/pricing/"
+ },
+ {
+  "name": "Connect AI",
+  "path": "/feature/connect-ai/"
+ },
+ {
+  "name": "Videos (Resources)",
+  "path": "/resources/videos/"
+ },
+ {
+  "name": "US Dialer",
+  "path": "/feature/us-dialer/"
+ },
+ {
+  "name": "Cold Calling",
+  "path": "/resources/cold-calling-vault/"
+ },
+ {
+  "name": "Outreach Alt",
+  "path": "/compare/klenty-vs-outreach/"
+ },
+ {
+  "name": "Apollo Alt",
+  "path": "/compare/klenty-vs-apollo/"
+ },
+ {
+  "name": "Salesloft Alt",
+  "path": "/compare/klenty-vs-salesloft/"
+ },
+ {
+  "name": "Orum Alt",
+  "path": "/compare/klenty-vs-orum/"
+ },
+ {
+  "name": "Parallel Dialer",
+  "path": "/feature/parallel-dialer/"
+ },
+ {
+  "name": "Nooks Alt",
+  "path": "/compare/klenty-vs-nooks/"
+ },
+ {
+  "name": "Global Dialer",
+  "path": "/feature/global-dialer/"
+ },
+ {
+  "name": "AI Call Coaching",
+  "path": "/feature/ai-call-coaching/"
+ },
+ {
+  "name": "Power Dialer",
+  "path": "/feature/power-dialer/"
+ },
+ {
+  "name": "India Dialer",
+  "path": "/feature/india-dialer/"
+ },
+ {
+  "name": "Sales Dialer",
+  "path": "/feature/sales-dialer/"
+ },
+ {
+  "name": "Gong Integration",
+  "path": "/integrations/gong/",
+  "new_since": "2026-10-26"
+ },
+ {
+  "name": "Dynamic Presence",
+  "path": "/feature/dynamic-presence/",
+  "new_since": "2026-10-27"
+ },
+ {
+  "name": "Reply Alt",
+  "path": "/compare/klenty-vs-reply/"
+ },
+ {
+  "name": "SEP Landing",
+  "path": "/sales-engagement-platform/"
+ }
+]
