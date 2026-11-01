@@ -13,7 +13,7 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 var(--sans);
  background-image:repeating-linear-gradient(0deg,rgba(160,200,90,.025) 0,rgba(160,200,90,.025) 1px,transparent 1px,transparent 4px),radial-gradient(ellipse at 50% -10%,rgba(90,110,40,.22),transparent 60%);background-attachment:fixed}
-.wrap{max-width:1500px;margin:0 auto;padding:0 20px 60px}
+.wrap{max-width:1500px;margin:0 auto;padding:14px 20px 60px}
 .sbar{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin:0 -20px;padding:7px 20px;background:var(--olive);color:#0b0f06;font:12px var(--mono);letter-spacing:.14em;text-transform:uppercase;border-bottom:2px solid #8aa04a}
 .sbar b{font-weight:400}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#7bd143;margin-right:8px;box-shadow:0 0 0 2px rgba(11,15,6,.35);animation:blink 1.6s infinite}
@@ -64,7 +64,6 @@ hr{border:0;border-top:2px dashed var(--olive);margin:44px 0 0}
 </head>
 <body>
 <div class="wrap">
-  <div class="sbar"><span><span class="dot" id="sdot"></span><b id="sst">SYNC: STANDBY</b></span><span>CLEARANCE: INTERNAL ONLY</span></div>
   <div class="top">
     <div class="ttl"><h1>Website Visitors Dashboard - Praveen</h1><div class="sub" id="period">Loading...</div></div>
     <div class="chips" id="chips">
@@ -200,7 +199,7 @@ function reset(keepWeek){var n=D.weeks.length; if(!keepWeek)sel.week=D.weeks[n-1
 function freshness(){
   var ms=Date.now()-Date.parse(D.generated_at),mins=Math.round(ms/6e4);
   $('upd').textContent='Last updated '+(mins<1?'just now':mins<90?mins+' minutes ago':Math.round(mins/60)+' hours ago')+' ('+new Date(D.generated_at).toLocaleString()+'). Refreshes every hour.';
-  var ok=mins<=210;$('sdot').className='dot'+(ok?'':' warn');$('sst').textContent=ok?'SYNC: LIVE':'SYNC: DELAYED';var st=$('stale');if(mins>210){st.style.display='block';st.textContent='These numbers may be out of date: the last successful refresh was '+Math.round(mins/60)+' hours ago.'}else st.style.display='none';
+  var st=$('stale');if(mins>210){st.style.display='block';st.textContent='These numbers may be out of date: the last successful refresh was '+Math.round(mins/60)+' hours ago.'}else st.style.display='none';
 }
 function load(first){
   fetch('data.json?'+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){
