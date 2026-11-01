@@ -6,10 +6,10 @@
 <title>Website Visitors Dashboard - Praveen</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Saira+Stencil+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;500;600;700&family=Oxanium:wght@500;600;700&family=Saira+Stencil+One&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#090c07;--panel:#10150c;--panel2:#161d10;--line:#33401f;--row:#1e2815;--ink:#dfe5c8;--mute:#8e9876;--blue:#7bd143;--org:#e0a526;--teal:#46c6b0;--pink:#e8765c;--dn:#e8765c;--up:#7bd143;--newbg:#1a2210;--newtag:#e0a526;--newink:#e0a526;--olive:#4d5d2a;
---sans:"Chakra Petch","Segoe UI",Helvetica,Arial,sans-serif;--mono:"Share Tech Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;--stencil:"Saira Stencil One","Chakra Petch",Impact,sans-serif}
+--sans:"Chakra Petch","Segoe UI",Helvetica,Arial,sans-serif;--mono:"Share Tech Mono",ui-monospace,"SF Mono",Menlo,Consolas,monospace;--num:"Oxanium","Chakra Petch",ui-monospace,Menlo,sans-serif;--stencil:"Saira Stencil One","Chakra Petch",Impact,sans-serif}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:14px/1.45 var(--sans);
  background-image:repeating-linear-gradient(0deg,rgba(160,200,90,.025) 0,rgba(160,200,90,.025) 1px,transparent 1px,transparent 4px),radial-gradient(ellipse at 50% -10%,rgba(90,110,40,.22),transparent 60%);background-attachment:fixed}
@@ -40,9 +40,9 @@ select{background:#0b0f07;color:var(--ink);border:1px solid var(--line);border-r
 .tile::after{bottom:-1px;right:-1px;border-left:0;border-top:0}
 .tile .a{font-family:var(--mono);font-size:11.5px;letter-spacing:.14em;color:var(--mute);text-transform:uppercase}
 .tile .a::before{content:"\25E2  ";color:var(--org)}
-.tile .n{font-family:var(--mono);font-weight:400;font-size:44px;line-height:1.15;margin:4px 0 2px;letter-spacing:-.01em;color:#fff}
-.tile .r{display:flex;justify-content:space-between;color:var(--mute);font-size:13px;font-family:var(--mono)}
-.tile .m{color:var(--org);font-size:13px;margin-top:4px;font-family:var(--mono)}
+.tile .n{font-family:var(--num);font-weight:600;font-size:46px;line-height:1.1;margin:4px 0 2px;letter-spacing:.01em;color:#fff;font-variant-numeric:tabular-nums}
+.tile .r{display:flex;justify-content:space-between;color:var(--mute);font-size:14px;font-family:var(--num);font-weight:500;font-variant-numeric:tabular-nums}
+.tile .m{color:var(--org);font-size:14px;margin-top:4px;font-family:var(--num);font-weight:500}
 .dn{color:var(--dn)}.up{color:var(--up)}
 .legend{display:flex;flex-wrap:wrap;gap:20px;font-size:12.5px;color:var(--mute);margin:10px 0 4px;font-family:var(--mono);letter-spacing:.04em;text-transform:uppercase}
 .legend i{display:inline-block;width:22px;border-top:3px solid;vertical-align:middle;margin-right:7px}
@@ -50,7 +50,7 @@ select{background:#0b0f07;color:var(--ink);border:1px solid var(--line);border-r
 table{width:100%;border-collapse:collapse;font-size:14.5px;margin-top:8px}
 th{font-weight:400;color:var(--org);text-align:right;padding:8px 10px;font-family:var(--mono);font-size:12px;letter-spacing:.12em;text-transform:uppercase;border-bottom:2px solid var(--olive)}
 th:first-child,td:first-child{text-align:left}
-td{padding:7px 10px;text-align:right;border-top:1px dashed var(--row);font-family:var(--mono);font-size:13.5px}
+td{padding:7px 10px;text-align:right;border-top:1px dashed var(--row);font-family:var(--num);font-weight:500;font-size:15px;font-variant-numeric:tabular-nums}
 td:first-child{font-family:var(--sans);font-size:14.5px;font-weight:500}
 tr:hover td{background:rgba(123,209,67,.05)}
 tr.nw td{background:var(--newbg);border-top:1px dashed #5a4a1a}
@@ -151,10 +151,10 @@ function renderChart(){
   function ds(label,data,col,axis,style){return {label:label,data:data,yAxisID:axis,borderColor:col,backgroundColor:col,borderWidth:3,pointRadius:6,pointStyle:style,
     pointBackgroundColor:function(c){return part&&c.dataIndex===last?'#090c07':col},pointBorderColor:col,pointBorderWidth:2.5,tension:.2,
     segment:{borderDash:function(c){return part&&c.p1DataIndex===last?[7,6]:undefined}}}}
-  var lab={id:'lab',afterDatasetsDraw:function(ch){var x=ch.ctx;x.font='400 13px "Share Tech Mono",ui-monospace,Menlo,monospace';x.textAlign='center';var off=[-12,22,-12,-12];
+  var lab={id:'lab',afterDatasetsDraw:function(ch){var x=ch.ctx;x.font='600 13.5px "Oxanium","Chakra Petch",sans-serif';x.textAlign='center';var off=[-12,22,-12,-12];
     ch.data.datasets.forEach(function(d,di){x.fillStyle=d.borderColor;ch.getDatasetMeta(di).data.forEach(function(pt,k){
       var t=di===3?d.data[k].toFixed(1)+'%':Math.round(d.data[k]).toLocaleString('en-US');x.fillText(t,pt.x,pt.y+off[di])})})}};
-  Chart.defaults.font.family='"Share Tech Mono",ui-monospace,Menlo,monospace';
+  Chart.defaults.font.family='"Oxanium","Chakra Petch",sans-serif';
   var cfg={type:'line',plugins:[lab],data:{labels:labels,datasets:[ds('Visitors',V,'#7bd143','y','circle'),ds('Demo requests',Dm,'#e0a526','y1','rect'),ds('Trials',Tr,'#46c6b0','y1','triangle'),ds('Conversion rate %',R,'#e8765c','y2','rectRot')]},
     options:{responsive:true,maintainAspectRatio:false,layout:{padding:{top:24,left:6,right:6}},interaction:{mode:'index',intersect:false},plugins:{legend:{display:false}},
       scales:{x:{offset:true,grid:{display:false},ticks:{color:'#c3cba8',font:{size:12.5}}},
