@@ -2,12 +2,12 @@
 
 A live dashboard: four tiles (real visitors, demo requests, trials, overall website conversion), a week-over-week line graph
 (visitors, demos, trials, conversion rate), the 22 tracked pages, and an engagement section (average and median time).
-Refreshes every 30 minutes. Published on Cloudflare Pages as `klenty-web-dashboard`.
+Refreshes every hour (a Cloudflare timer starts the job; GitHub's own schedule at minutes 12 and 42 is a backup). Published on Cloudflare Pages as `klenty-web-dashboard`.
 
 ## How it works
 - `scripts/build_data.py` reads GA4 (`scripts/ga4.py`) and Pipedrive (`scripts/pipedrive.py`) and writes `site/data.json`.
 - `site/index.html` is the page. It reads `data.json` when opened and every 10 minutes after.
-- `.github/workflows/refresh.yml` runs every 30 minutes: recalculates the current week and last week, publishes.
+- `.github/workflows/refresh.yml` runs every hour (started by the Cloudflare timer in `cloudflare-timer/`, with GitHub's schedule as a backup): recalculates the current week and last week, publishes.
 - `.github/workflows/daily.yml` runs at 02:00 India time: recalculates all 13 weeks including engagement, saves `data/history.json`
   (numbers only), publishes. **Run it once by hand first** (Actions tab, "Full recalculation", Run workflow). The 30-minute job
   skips itself until `data/history.json` exists.
