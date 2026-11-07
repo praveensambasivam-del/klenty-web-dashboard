@@ -110,3 +110,45 @@ def deal_stats(deals, s, e, out_ids, path_to_name):
         n = path_to_name.get(url_path(x["custom_fields"].get(LP)))
         if n: pages[n]["trials"] += 1
     return {"demos": len(dm), "trials": len(tr), "demo_mql": sum(map(mql, dm)), "trial_mql": sum(map(mql, tr)), "pages": pages}
+
+
+# ---------------------------------------------------------------- regions and sources of deals
+REGION_BY_ID = {173: "North America", 174: "Latin America", 243: "Europe / UK", 244: "AMEA"}
+REGIONS = ["AMEA", "North America", "Europe / UK", "Latin America"]
+SEO, PAID, SOCIAL, EMAIL, VIDEO = {65, 66, 67, 68, 69, 70, 112, 113, 156, 157, 158, 159, 588}, {88, 80}, {110, 160, 111}, {74, 464}, {522}
+REFER = {64, 521, 107, 75, 355, 62, 114, 115, 39, 78, 91, 72}
+SOURCES = ["Organic Search (SEO and AEO)", "Direct (source not found)", "Social Media", "Email", "Referral", "Paid Search (Google Ads)", "Organic Video"]
+
+
+def _ids(v):
+    return set(v) if isinstance(v, (list, tuple, set)) else ({v} if v is not None else set())
+
+
+def deal_region(x):
+    for i in _ids(x["custom_fields"].get(RG)):
+        if i in REGION_BY_ID:
+            return REGION_BY_ID[i]
+    return None
+
+
+def deal_source(x):
+    s = _ids(x["custom_fields"].get(DS))
+    for name, grp in (("Organic Search (SEO and AEO)", SEO), ("Paid Search (Google Ads)", PAID), ("Social Media", SOCIAL),
+                      ("Email", EMAIL), ("Referral", REFER), ("Organic Video", VIDEO)):
+        if s & grp:
+            return name
+    return "Direct (source not found)"
+
+
+def group_stats(deals, s, e, out_ids):
+    """Demos and trials of the window split by region and by source (same picks as deal_stats)."""
+    dm = pick(deals, DEMO_TYPES, DEMO_PIPES, s, e, out_ids, True)
+    tr = pick(deals, TRIAL_TYPES, TRIAL_PIPES, s, e, out_ids, False)
+    reg = {r: {"demos": 0, "trials": 0} for r in REGIONS}
+    src = {n: {"demos": 0, "trials": 0} for n in SOURCES}
+    for kind, rows in (("demos", dm), ("trials", tr)):
+        for x in rows:
+            r = deal_region(x)
+            if r: reg[r][kind] += 1
+            src[deal_source(x)][kind] += 1
+    return reg, src

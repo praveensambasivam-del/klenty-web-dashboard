@@ -91,6 +91,69 @@ def engagement(s, e):
     return out
 
 
+# ------------------------------------------------------------------ regions and sources (visitors)
+NA_C = {"United States", "Canada"}
+LATAM_C = {"Mexico", "Guatemala", "Belize", "Honduras", "El Salvador", "Nicaragua", "Costa Rica", "Panama", "Cuba", "Dominican Republic", "Haiti",
+           "Jamaica", "Trinidad & Tobago", "Bahamas", "Barbados", "Puerto Rico", "Colombia", "Venezuela", "Ecuador", "Peru", "Bolivia", "Brazil",
+           "Chile", "Argentina", "Uruguay", "Paraguay", "Guyana", "Suriname"}
+EUK_C = {"United Kingdom", "Ireland", "Germany", "France", "Spain", "Portugal", "Italy", "Netherlands", "Belgium", "Luxembourg", "Switzerland", "Austria",
+         "Denmark", "Sweden", "Norway", "Finland", "Iceland", "Poland", "Czechia", "Slovakia", "Hungary", "Romania", "Bulgaria", "Greece", "Croatia",
+         "Slovenia", "Serbia", "Bosnia & Herzegovina", "Montenegro", "North Macedonia", "Albania", "Kosovo", "Estonia", "Latvia", "Lithuania", "Malta",
+         "Cyprus", "Ukraine", "Moldova", "Belarus", "Georgia", "Armenia", "Azerbaijan", "Russia", "Türkiye", "Turkey"}
+
+
+def region_of(country):
+    if country in NA_C: return "North America"
+    if country in LATAM_C: return "Latin America"
+    if country in EUK_C: return "Europe / UK"
+    if country in ("(not set)", ""): return None
+    return "AMEA"
+
+
+CH = lambda *n: ga4.OR(*[ga4.sf("sessionDefaultChannelGroup", x) for x in n]) if len(n) > 1 else ga4.sf("sessionDefaultChannelGroup", n[0])
+LINKEDIN_TAGS = ("ayesha", "chris", "amish-cri", "amish")
+TAGS = ga4.OR(*[ga4.sf("sessionSourceMedium", f"linkedin / {t}") for t in LINKEDIN_TAGS])
+KNOWN = CH("Organic Search", "AI Assistant", "Direct", "Unassigned", "Organic Social", "Email", "Referral", "Paid Search", "Organic Video")
+S0, S1, S2, S3, S4, S5, S6 = pd.SOURCES
+SRC_FILTER = {S0: CH("Organic Search", "AI Assistant"), S1: ga4.OR(CH("Direct", "Unassigned"), ga4.NOT(KNOWN)),
+              S2: ga4.AND(CH("Organic Social"), ga4.NOT(TAGS)), S3: ga4.OR(CH("Email"), TAGS), S4: CH("Referral"), S5: CH("Paid Search"), S6: CH("Organic Video")}
+
+
+def source_of(channel, source_medium):
+    tagged = source_medium in tuple("linkedin / " + t for t in LINKEDIN_TAGS)
+    if channel in ("Organic Search", "AI Assistant"): return S0
+    if channel == "Email" or (tagged and channel == "Organic Social"): return S3
+    if channel == "Organic Social": return S2
+    if channel == "Referral": return S4
+    if channel == "Paid Search": return S5
+    if channel == "Organic Video": return S6
+    return S1
+
+
+def _rescued(s, e):
+    """Key-action visitors from the removed (bot-like) groups: [(country, channel, source_medium, users)]."""
+    d = ga4.D6 + ["sessionSourceMedium"]
+    seg = {tuple(ga4.dv(r)): ga4.mv(r)[0] for r in ga4.run(ga4.SEG, ["totalUsers"], d, s, e)}
+    out = []
+    for r in ga4.run(ga4._and(ga4.SEG, ga4.inl("eventName", ga4.KEYEV)), ["eventCount"], d, s, e):
+        k = tuple(ga4.dv(r))
+        if ga4.mv(r)[0] > 0 and k in seg: out.append((k[1], k[5], k[6], seg[k]))
+    return out
+
+
+def region_source_visitors(s, e):
+    reg = {r: 0 for r in pd.REGIONS}
+    for r in ga4.run(ga4.CLEAN2, ["totalUsers"], ["country"], s, e):
+        g = region_of(ga4.dv(r)[0])
+        if g: reg[g] += ga4.mv(r)[0]
+    src = {n: ga4.distinct(ga4.AND(ga4.CLEAN2, f), s, e) for n, f in SRC_FILTER.items()}
+    for country, ch, sm, n in _rescued(s, e):
+        g = region_of(country)
+        if g: reg[g] += n
+        src[source_of(ch, sm)] += n
+    return {k: round(v) for k, v in reg.items()}, {k: round(v) for k, v in src.items()}
+
+
 # ------------------------------------------------------------------ one window
 def window_metrics(s, e, deals, out_ids, with_pages=True):
     m = site_numbers(s, e)
@@ -98,6 +161,10 @@ def window_metrics(s, e, deals, out_ids, with_pages=True):
     m.update({k: ds[k] for k in ("demos", "trials", "demo_mql", "trial_mql")})
     m["conv"] = round((ds["demos"] + ds["trials"]) / m["visitors"] * 100, 2) if m["visitors"] else 0
     if with_pages:
+        rv, sv = region_source_visitors(s, e)
+        rd, sd = pd.group_stats(deals, s, e, out_ids)
+        m["regions"] = {k: {"visitors": rv[k], **rd[k]} for k in pd.REGIONS}
+        m["sources"] = {k: {"visitors": sv[k], **sd[k]} for k in pd.SOURCES}
         pv = page_visitors(s, e)
         m["pages"] = {p["name"]: {"visitors": round(pv.get(p["name"], 0)), **ds["pages"][p["name"]]} for p in PAGES}
     return m
