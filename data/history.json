@@ -188,53 +188,11 @@
      "over10": 33
     },
     "pages": {
-     "Connect AI": {
-      "avg": 51.8,
-      "visits": 64,
-      "median": 3.0,
-      "over10": 28
-     },
-     "AI Call Coaching": {
-      "avg": 26.0,
-      "visits": 35,
-      "median": 4.0,
-      "over10": 31
-     },
-     "US Dialer": {
-      "avg": 1206.0,
-      "visits": 110,
-      "median": 0.0,
-      "over10": 21
-     },
-     "Parallel Dialer": {
-      "avg": 43.4,
-      "visits": 18,
-      "median": 5.5,
-      "over10": 33
-     },
-     "Videos (Resources)": {
-      "avg": 35.2,
-      "visits": 24,
-      "median": 13.0,
-      "over10": 54
-     },
-     "India Dialer": {
-      "avg": 38.9,
-      "visits": 20,
-      "median": 12.5,
-      "over10": 55
-     },
-     "Nooks Alt": {
-      "avg": 40.8,
-      "visits": 9,
-      "median": 13.0,
-      "over10": 56
-     },
-     "Cold Calling": {
-      "avg": 0.0,
-      "visits": 1,
-      "median": 0.0,
-      "over10": 0
+     "Global Dialer": {
+      "avg": 183.6,
+      "visits": 80,
+      "median": 7.0,
+      "over10": 41
      },
      "Apollo Alt": {
       "avg": 28.0,
@@ -248,35 +206,41 @@
       "median": 3.0,
       "over10": 34
      },
-     "Salesloft Alt": {
-      "avg": 15.5,
-      "visits": 15,
-      "median": 5.0,
-      "over10": 33
-     },
-     "Orum Alt": {
-      "avg": 15.8,
-      "visits": 8,
-      "median": 6.0,
-      "over10": 38
-     },
-     "Dialer Pricing": {
-      "avg": 32.0,
-      "visits": 143,
-      "median": 3.0,
-      "over10": 32
-     },
      "Homepage": {
       "avg": 18.4,
       "visits": 2002,
       "median": 2.0,
       "over10": 17
      },
-     "Global Dialer": {
-      "avg": 183.6,
-      "visits": 80,
-      "median": 7.0,
-      "over10": 41
+     "India Dialer": {
+      "avg": 38.9,
+      "visits": 20,
+      "median": 12.5,
+      "over10": 55
+     },
+     "Nooks Alt": {
+      "avg": 40.8,
+      "visits": 9,
+      "median": 13.0,
+      "over10": 56
+     },
+     "Videos (Resources)": {
+      "avg": 35.2,
+      "visits": 24,
+      "median": 13.0,
+      "over10": 54
+     },
+     "AI Call Coaching": {
+      "avg": 26.0,
+      "visits": 35,
+      "median": 4.0,
+      "over10": 31
+     },
+     "Cold Calling": {
+      "avg": 0.0,
+      "visits": 1,
+      "median": 0.0,
+      "over10": 0
      },
      "Reply Alt": {
       "avg": 89.8,
@@ -284,11 +248,47 @@
       "median": 5.0,
       "over10": 42
      },
+     "Connect AI": {
+      "avg": 51.8,
+      "visits": 64,
+      "median": 3.0,
+      "over10": 28
+     },
+     "Dialer Pricing": {
+      "avg": 32.0,
+      "visits": 143,
+      "median": 3.0,
+      "over10": 32
+     },
+     "Salesloft Alt": {
+      "avg": 15.5,
+      "visits": 15,
+      "median": 5.0,
+      "over10": 33
+     },
      "Power Dialer": {
       "avg": 45.2,
       "visits": 15,
       "median": 9.0,
       "over10": 40
+     },
+     "Parallel Dialer": {
+      "avg": 43.4,
+      "visits": 18,
+      "median": 5.5,
+      "over10": 33
+     },
+     "Sales Dialer": {
+      "avg": 23.2,
+      "visits": 29,
+      "median": 3.0,
+      "over10": 31
+     },
+     "US Dialer": {
+      "avg": 1206.0,
+      "visits": 110,
+      "median": 0.0,
+      "over10": 21
      },
      "Outreach Alt": {
       "avg": 107.0,
@@ -296,11 +296,11 @@
       "median": 16.0,
       "over10": 59
      },
-     "Sales Dialer": {
-      "avg": 23.2,
-      "visits": 29,
-      "median": 3.0,
-      "over10": 31
+     "Orum Alt": {
+      "avg": 15.8,
+      "visits": 8,
+      "median": 6.0,
+      "over10": 38
      }
     }
    },
@@ -497,59 +497,11 @@
      "over10": 42
     },
     "pages": {
-     "Connect AI": {
-      "avg": 102.5,
-      "visits": 98,
-      "median": 11.0,
-      "over10": 50
-     },
-     "AI Call Coaching": {
-      "avg": 23.5,
-      "visits": 28,
-      "median": 5.0,
-      "over10": 43
-     },
-     "SEP Landing": {
-      "avg": 2.0,
-      "visits": 2,
-      "median": 1.0,
-      "over10": 0
-     },
-     "US Dialer": {
-      "avg": 425.1,
-      "visits": 112,
-      "median": 14.5,
-      "over10": 56
-     },
-     "Parallel Dialer": {
-      "avg": 35.5,
-      "visits": 82,
-      "median": 9.0,
-      "over10": 49
-     },
-     "Videos (Resources)": {
-      "avg": 67.4,
-      "visits": 55,
-      "median": 12.0,
-      "over10": 51
-     },
-     "India Dialer": {
-      "avg": 26.6,
-      "visits": 32,
+     "Global Dialer": {
+      "avg": 80.4,
+      "visits": 86,
       "median": 6.0,
-      "over10": 38
-     },
-     "Nooks Alt": {
-      "avg": 52.6,
-      "visits": 33,
-      "median": 7.0,
-      "over10": 45
-     },
-     "Cold Calling": {
-      "avg": 13.0,
-      "visits": 2,
-      "median": 13.0,
-      "over10": 50
+      "over10": 37
      },
      "Apollo Alt": {
       "avg": 17.1,
@@ -563,35 +515,47 @@
       "median": 4.0,
       "over10": 36
      },
-     "Orum Alt": {
-      "avg": 117.3,
-      "visits": 25,
-      "median": 10.0,
-      "over10": 44
-     },
-     "Salesloft Alt": {
-      "avg": 47.5,
-      "visits": 34,
-      "median": 12.5,
-      "over10": 53
-     },
-     "Dialer Pricing": {
-      "avg": 64.9,
-      "visits": 174,
-      "median": 4.0,
-      "over10": 38
-     },
      "Homepage": {
       "avg": 18.4,
       "visits": 2140,
       "median": 2.0,
       "over10": 22
      },
-     "Global Dialer": {
-      "avg": 80.4,
-      "visits": 86,
+     "India Dialer": {
+      "avg": 26.6,
+      "visits": 32,
       "median": 6.0,
-      "over10": 37
+      "over10": 38
+     },
+     "SEP Landing": {
+      "avg": 2.0,
+      "visits": 2,
+      "median": 1.0,
+      "over10": 0
+     },
+     "Nooks Alt": {
+      "avg": 52.6,
+      "visits": 33,
+      "median": 7.0,
+      "over10": 45
+     },
+     "Videos (Resources)": {
+      "avg": 67.4,
+      "visits": 55,
+      "median": 12.0,
+      "over10": 51
+     },
+     "AI Call Coaching": {
+      "avg": 23.5,
+      "visits": 28,
+      "median": 5.0,
+      "over10": 43
+     },
+     "Cold Calling": {
+      "avg": 13.0,
+      "visits": 2,
+      "median": 13.0,
+      "over10": 50
      },
      "Reply Alt": {
       "avg": 21.2,
@@ -599,11 +563,47 @@
       "median": 18.5,
       "over10": 83
      },
+     "Connect AI": {
+      "avg": 102.5,
+      "visits": 98,
+      "median": 11.0,
+      "over10": 50
+     },
+     "Dialer Pricing": {
+      "avg": 64.9,
+      "visits": 174,
+      "median": 4.0,
+      "over10": 38
+     },
+     "Salesloft Alt": {
+      "avg": 47.5,
+      "visits": 34,
+      "median": 12.5,
+      "over10": 53
+     },
      "Power Dialer": {
       "avg": 15.5,
       "visits": 16,
       "median": 6.0,
       "over10": 44
+     },
+     "Parallel Dialer": {
+      "avg": 35.5,
+      "visits": 82,
+      "median": 9.0,
+      "over10": 49
+     },
+     "Sales Dialer": {
+      "avg": 18.0,
+      "visits": 71,
+      "median": 13.0,
+      "over10": 54
+     },
+     "US Dialer": {
+      "avg": 425.1,
+      "visits": 112,
+      "median": 14.5,
+      "over10": 56
      },
      "Outreach Alt": {
       "avg": 133.9,
@@ -611,11 +611,11 @@
       "median": 6.0,
       "over10": 38
      },
-     "Sales Dialer": {
-      "avg": 18.0,
-      "visits": 71,
-      "median": 13.0,
-      "over10": 54
+     "Orum Alt": {
+      "avg": 117.3,
+      "visits": 25,
+      "median": 10.0,
+      "over10": 44
      }
     }
    },
@@ -812,53 +812,11 @@
      "over10": 32
     },
     "pages": {
-     "Connect AI": {
-      "avg": 171.4,
-      "visits": 129,
-      "median": 5.0,
-      "over10": 36
-     },
-     "AI Call Coaching": {
-      "avg": 38.4,
-      "visits": 14,
-      "median": 11.5,
-      "over10": 57
-     },
-     "US Dialer": {
-      "avg": 71.9,
-      "visits": 46,
-      "median": 8.5,
-      "over10": 48
-     },
-     "Parallel Dialer": {
-      "avg": 26.1,
-      "visits": 45,
-      "median": 2.0,
-      "over10": 24
-     },
-     "Videos (Resources)": {
-      "avg": 40.0,
-      "visits": 25,
-      "median": 14.0,
-      "over10": 56
-     },
-     "India Dialer": {
-      "avg": 33.9,
-      "visits": 31,
-      "median": 5.0,
-      "over10": 32
-     },
-     "Nooks Alt": {
-      "avg": 100.0,
-      "visits": 3,
-      "median": 0.0,
+     "Global Dialer": {
+      "avg": 31.7,
+      "visits": 33,
+      "median": 6.0,
       "over10": 33
-     },
-     "Cold Calling": {
-      "avg": 134.7,
-      "visits": 4,
-      "median": 11.5,
-      "over10": 50
      },
      "Apollo Alt": {
       "avg": 7.7,
@@ -872,16 +830,52 @@
       "median": 2.0,
       "over10": 28
      },
-     "Salesloft Alt": {
-      "avg": 122.5,
-      "visits": 16,
-      "median": 16.0,
+     "Homepage": {
+      "avg": 17.8,
+      "visits": 1798,
+      "median": 1.0,
+      "over10": 17
+     },
+     "India Dialer": {
+      "avg": 33.9,
+      "visits": 31,
+      "median": 5.0,
+      "over10": 32
+     },
+     "Nooks Alt": {
+      "avg": 100.0,
+      "visits": 3,
+      "median": 0.0,
+      "over10": 33
+     },
+     "Videos (Resources)": {
+      "avg": 40.0,
+      "visits": 25,
+      "median": 14.0,
       "over10": 56
      },
-     "Orum Alt": {
-      "avg": 51.3,
+     "AI Call Coaching": {
+      "avg": 38.4,
       "visits": 14,
-      "median": 6.5,
+      "median": 11.5,
+      "over10": 57
+     },
+     "Cold Calling": {
+      "avg": 134.7,
+      "visits": 4,
+      "median": 11.5,
+      "over10": 50
+     },
+     "Reply Alt": {
+      "avg": 240.0,
+      "visits": 5,
+      "median": 52.0,
+      "over10": 60
+     },
+     "Connect AI": {
+      "avg": 171.4,
+      "visits": 129,
+      "median": 5.0,
       "over10": 36
      },
      "Dialer Pricing": {
@@ -890,23 +884,11 @@
       "median": 2.0,
       "over10": 31
      },
-     "Homepage": {
-      "avg": 17.8,
-      "visits": 1798,
-      "median": 1.0,
-      "over10": 17
-     },
-     "Global Dialer": {
-      "avg": 31.7,
-      "visits": 33,
-      "median": 6.0,
-      "over10": 33
-     },
-     "Reply Alt": {
-      "avg": 240.0,
-      "visits": 5,
-      "median": 52.0,
-      "over10": 60
+     "Salesloft Alt": {
+      "avg": 122.5,
+      "visits": 16,
+      "median": 16.0,
+      "over10": 56
      },
      "Power Dialer": {
       "avg": 28.5,
@@ -914,17 +896,35 @@
       "median": 9.5,
       "over10": 25
      },
-     "Outreach Alt": {
-      "avg": 39.8,
-      "visits": 37,
-      "median": 3.0,
-      "over10": 38
+     "Parallel Dialer": {
+      "avg": 26.1,
+      "visits": 45,
+      "median": 2.0,
+      "over10": 24
      },
      "Sales Dialer": {
       "avg": 18.4,
       "visits": 27,
       "median": 3.0,
       "over10": 26
+     },
+     "US Dialer": {
+      "avg": 71.9,
+      "visits": 46,
+      "median": 8.5,
+      "over10": 48
+     },
+     "Outreach Alt": {
+      "avg": 39.8,
+      "visits": 37,
+      "median": 3.0,
+      "over10": 38
+     },
+     "Orum Alt": {
+      "avg": 51.3,
+      "visits": 14,
+      "median": 6.5,
+      "over10": 36
      }
     }
    },
@@ -1121,59 +1121,11 @@
      "over10": 34
     },
     "pages": {
-     "Connect AI": {
-      "avg": 91.1,
-      "visits": 64,
-      "median": 5.5,
-      "over10": 39
-     },
-     "AI Call Coaching": {
-      "avg": 35.3,
-      "visits": 21,
+     "Global Dialer": {
+      "avg": 29.0,
+      "visits": 12,
       "median": 2.0,
-      "over10": 24
-     },
-     "SEP Landing": {
-      "avg": 0.0,
-      "visits": 1,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Parallel Dialer": {
-      "avg": 39.8,
-      "visits": 60,
-      "median": 5.5,
-      "over10": 32
-     },
-     "US Dialer": {
-      "avg": 34.4,
-      "visits": 31,
-      "median": 5.0,
-      "over10": 42
-     },
-     "Videos (Resources)": {
-      "avg": 105.1,
-      "visits": 98,
-      "median": 11.0,
-      "over10": 51
-     },
-     "India Dialer": {
-      "avg": 25.9,
-      "visits": 19,
-      "median": 4.0,
-      "over10": 37
-     },
-     "Nooks Alt": {
-      "avg": 16.8,
-      "visits": 9,
-      "median": 2.0,
-      "over10": 33
-     },
-     "Cold Calling": {
-      "avg": 7.0,
-      "visits": 3,
-      "median": 5.0,
-      "over10": 33
+      "over10": 25
      },
      "Apollo Alt": {
       "avg": 52.6,
@@ -1187,35 +1139,47 @@
       "median": 3.0,
       "over10": 32
      },
-     "Salesloft Alt": {
-      "avg": 51.3,
-      "visits": 40,
-      "median": 5.0,
-      "over10": 42
-     },
-     "Orum Alt": {
-      "avg": 34.7,
-      "visits": 12,
-      "median": 10.0,
-      "over10": 50
-     },
-     "Dialer Pricing": {
-      "avg": 43.0,
-      "visits": 207,
-      "median": 2.0,
-      "over10": 30
-     },
      "Homepage": {
       "avg": 20.5,
       "visits": 2128,
       "median": 1.0,
       "over10": 17
      },
-     "Global Dialer": {
-      "avg": 29.0,
-      "visits": 12,
+     "India Dialer": {
+      "avg": 25.9,
+      "visits": 19,
+      "median": 4.0,
+      "over10": 37
+     },
+     "SEP Landing": {
+      "avg": 0.0,
+      "visits": 1,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Nooks Alt": {
+      "avg": 16.8,
+      "visits": 9,
       "median": 2.0,
-      "over10": 25
+      "over10": 33
+     },
+     "Videos (Resources)": {
+      "avg": 105.1,
+      "visits": 98,
+      "median": 11.0,
+      "over10": 51
+     },
+     "AI Call Coaching": {
+      "avg": 35.3,
+      "visits": 21,
+      "median": 2.0,
+      "over10": 24
+     },
+     "Cold Calling": {
+      "avg": 7.0,
+      "visits": 3,
+      "median": 5.0,
+      "over10": 33
      },
      "Reply Alt": {
       "avg": 60.0,
@@ -1223,11 +1187,47 @@
       "median": 5.5,
       "over10": 33
      },
+     "Connect AI": {
+      "avg": 91.1,
+      "visits": 64,
+      "median": 5.5,
+      "over10": 39
+     },
+     "Dialer Pricing": {
+      "avg": 43.0,
+      "visits": 207,
+      "median": 2.0,
+      "over10": 30
+     },
+     "Salesloft Alt": {
+      "avg": 51.3,
+      "visits": 40,
+      "median": 5.0,
+      "over10": 42
+     },
      "Power Dialer": {
       "avg": 56.5,
       "visits": 17,
       "median": 17.0,
       "over10": 53
+     },
+     "Parallel Dialer": {
+      "avg": 39.8,
+      "visits": 60,
+      "median": 5.5,
+      "over10": 32
+     },
+     "Sales Dialer": {
+      "avg": 17.8,
+      "visits": 22,
+      "median": 6.0,
+      "over10": 36
+     },
+     "US Dialer": {
+      "avg": 34.4,
+      "visits": 31,
+      "median": 5.0,
+      "over10": 42
      },
      "Outreach Alt": {
       "avg": 66.5,
@@ -1235,11 +1235,11 @@
       "median": 3.0,
       "over10": 34
      },
-     "Sales Dialer": {
-      "avg": 17.8,
-      "visits": 22,
-      "median": 6.0,
-      "over10": 36
+     "Orum Alt": {
+      "avg": 34.7,
+      "visits": 12,
+      "median": 10.0,
+      "over10": 50
      }
     }
    },
@@ -1436,65 +1436,11 @@
      "over10": 33
     },
     "pages": {
-     "Connect AI": {
-      "avg": 48.3,
-      "visits": 85,
-      "median": 7.0,
-      "over10": 34
-     },
-     "AI Call Coaching": {
-      "avg": 79.0,
-      "visits": 29,
-      "median": 7.0,
-      "over10": 48
-     },
-     "Homepage": {
-      "avg": 32.1,
-      "visits": 1973,
-      "median": 2.0,
-      "over10": 24
-     },
-     "US Dialer": {
-      "avg": 70.8,
-      "visits": 60,
-      "median": 3.5,
-      "over10": 32
-     },
-     "Parallel Dialer": {
-      "avg": 65.7,
-      "visits": 42,
-      "median": 8.0,
-      "over10": 43
-     },
-     "Videos (Resources)": {
-      "avg": 15.5,
-      "visits": 30,
-      "median": 1.0,
-      "over10": 30
-     },
-     "India Dialer": {
-      "avg": 31.1,
-      "visits": 44,
-      "median": 3.5,
-      "over10": 30
-     },
-     "Nooks Alt": {
-      "avg": 51.2,
-      "visits": 7,
-      "median": 31.0,
-      "over10": 57
-     },
      "Global Dialer": {
       "avg": 48.3,
       "visits": 22,
       "median": 3.0,
       "over10": 27
-     },
-     "Reply Alt": {
-      "avg": 0.8,
-      "visits": 5,
-      "median": 0.0,
-      "over10": 0
      },
      "Cold Calling": {
       "avg": 4.7,
@@ -1508,17 +1454,17 @@
       "median": 2.0,
       "over10": 18
      },
-     "Power Dialer": {
-      "avg": 25.9,
-      "visits": 15,
-      "median": 1.0,
-      "over10": 20
+     "Reply Alt": {
+      "avg": 0.8,
+      "visits": 5,
+      "median": 0.0,
+      "over10": 0
      },
-     "Outreach Alt": {
-      "avg": 48.6,
-      "visits": 29,
-      "median": 8.0,
-      "over10": 38
+     "Connect AI": {
+      "avg": 48.3,
+      "visits": 85,
+      "median": 7.0,
+      "over10": 34
      },
      "SEP Pricing": {
       "avg": 34.2,
@@ -1526,23 +1472,77 @@
       "median": 3.0,
       "over10": 32
      },
-     "Salesloft Alt": {
-      "avg": 30.4,
-      "visits": 32,
-      "median": 2.0,
-      "over10": 34
-     },
      "Orum Alt": {
       "avg": 7.1,
       "visits": 9,
       "median": 4.0,
       "over10": 11
      },
+     "Homepage": {
+      "avg": 32.1,
+      "visits": 1973,
+      "median": 2.0,
+      "over10": 24
+     },
      "Dialer Pricing": {
       "avg": 29.8,
       "visits": 122,
       "median": 2.0,
       "over10": 30
+     },
+     "India Dialer": {
+      "avg": 31.1,
+      "visits": 44,
+      "median": 3.5,
+      "over10": 30
+     },
+     "Salesloft Alt": {
+      "avg": 30.4,
+      "visits": 32,
+      "median": 2.0,
+      "over10": 34
+     },
+     "Power Dialer": {
+      "avg": 25.9,
+      "visits": 15,
+      "median": 1.0,
+      "over10": 20
+     },
+     "Parallel Dialer": {
+      "avg": 65.7,
+      "visits": 42,
+      "median": 8.0,
+      "over10": 43
+     },
+     "US Dialer": {
+      "avg": 70.8,
+      "visits": 60,
+      "median": 3.5,
+      "over10": 32
+     },
+     "Nooks Alt": {
+      "avg": 51.2,
+      "visits": 7,
+      "median": 31.0,
+      "over10": 57
+     },
+     "Outreach Alt": {
+      "avg": 48.6,
+      "visits": 29,
+      "median": 8.0,
+      "over10": 38
+     },
+     "Videos (Resources)": {
+      "avg": 15.5,
+      "visits": 30,
+      "median": 1.0,
+      "over10": 30
+     },
+     "AI Call Coaching": {
+      "avg": 79.0,
+      "visits": 29,
+      "median": 7.0,
+      "over10": 48
      }
     }
    },
@@ -1739,64 +1739,10 @@
      "over10": 32
     },
     "pages": {
-     "Connect AI": {
-      "avg": 34.2,
-      "visits": 125,
-      "median": 4.0,
-      "over10": 39
-     },
-     "AI Call Coaching": {
-      "avg": 13.5,
-      "visits": 25,
-      "median": 2.0,
-      "over10": 28
-     },
-     "Homepage": {
-      "avg": 17.8,
-      "visits": 1756,
-      "median": 1.0,
-      "over10": 17
-     },
-     "US Dialer": {
-      "avg": 44.9,
-      "visits": 106,
-      "median": 4.0,
-      "over10": 32
-     },
-     "Parallel Dialer": {
-      "avg": 10.4,
-      "visits": 32,
-      "median": 2.0,
-      "over10": 19
-     },
-     "Videos (Resources)": {
-      "avg": 38.0,
-      "visits": 65,
-      "median": 7.0,
-      "over10": 42
-     },
-     "India Dialer": {
-      "avg": 19.2,
-      "visits": 24,
-      "median": 5.0,
-      "over10": 33
-     },
-     "Nooks Alt": {
-      "avg": 50.5,
-      "visits": 7,
-      "median": 18.0,
-      "over10": 71
-     },
      "Global Dialer": {
       "avg": 39.9,
       "visits": 21,
       "median": 5.0,
-      "over10": 33
-     },
-     "Reply Alt": {
-      "avg": 24.0,
-      "visits": 6,
-      "median": 7.0,
       "over10": 33
      },
      "Cold Calling": {
@@ -1811,17 +1757,17 @@
       "median": 1.5,
       "over10": 25
      },
-     "Power Dialer": {
-      "avg": 26.2,
-      "visits": 20,
-      "median": 11.0,
-      "over10": 55
+     "Reply Alt": {
+      "avg": 24.0,
+      "visits": 6,
+      "median": 7.0,
+      "over10": 33
      },
-     "Outreach Alt": {
-      "avg": 35.7,
-      "visits": 19,
-      "median": 5.0,
-      "over10": 37
+     "Connect AI": {
+      "avg": 34.2,
+      "visits": 125,
+      "median": 4.0,
+      "over10": 39
      },
      "SEP Pricing": {
       "avg": 49.3,
@@ -1835,17 +1781,71 @@
       "median": 5.0,
       "over10": 29
      },
-     "Salesloft Alt": {
-      "avg": 1.2,
-      "visits": 6,
-      "median": 0.5,
-      "over10": 0
+     "Homepage": {
+      "avg": 17.8,
+      "visits": 1756,
+      "median": 1.0,
+      "over10": 17
      },
      "Dialer Pricing": {
       "avg": 43.4,
       "visits": 147,
       "median": 3.0,
       "over10": 33
+     },
+     "India Dialer": {
+      "avg": 19.2,
+      "visits": 24,
+      "median": 5.0,
+      "over10": 33
+     },
+     "Power Dialer": {
+      "avg": 26.2,
+      "visits": 20,
+      "median": 11.0,
+      "over10": 55
+     },
+     "Salesloft Alt": {
+      "avg": 1.2,
+      "visits": 6,
+      "median": 0.5,
+      "over10": 0
+     },
+     "Parallel Dialer": {
+      "avg": 10.4,
+      "visits": 32,
+      "median": 2.0,
+      "over10": 19
+     },
+     "US Dialer": {
+      "avg": 44.9,
+      "visits": 106,
+      "median": 4.0,
+      "over10": 32
+     },
+     "Nooks Alt": {
+      "avg": 50.5,
+      "visits": 7,
+      "median": 18.0,
+      "over10": 71
+     },
+     "Outreach Alt": {
+      "avg": 35.7,
+      "visits": 19,
+      "median": 5.0,
+      "over10": 37
+     },
+     "Videos (Resources)": {
+      "avg": 38.0,
+      "visits": 65,
+      "median": 7.0,
+      "over10": 42
+     },
+     "AI Call Coaching": {
+      "avg": 13.5,
+      "visits": 25,
+      "median": 2.0,
+      "over10": 28
      }
     }
    },
@@ -2042,59 +2042,11 @@
      "over10": 32
     },
     "pages": {
-     "Connect AI": {
-      "avg": 46.4,
-      "visits": 87,
-      "median": 4.0,
-      "over10": 28
-     },
-     "AI Call Coaching": {
-      "avg": 59.2,
-      "visits": 21,
-      "median": 6.0,
-      "over10": 33
-     },
-     "SEP Landing": {
-      "avg": 0.0,
-      "visits": 1,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Parallel Dialer": {
-      "avg": 18.3,
-      "visits": 42,
-      "median": 2.0,
-      "over10": 21
-     },
-     "US Dialer": {
-      "avg": 22.1,
-      "visits": 48,
-      "median": 2.0,
-      "over10": 17
-     },
-     "Videos (Resources)": {
-      "avg": 65.4,
-      "visits": 100,
-      "median": 4.0,
-      "over10": 33
-     },
-     "India Dialer": {
-      "avg": 125.2,
-      "visits": 46,
-      "median": 6.5,
-      "over10": 39
-     },
-     "Nooks Alt": {
-      "avg": 32.3,
-      "visits": 8,
-      "median": 3.0,
-      "over10": 38
-     },
-     "Cold Calling": {
-      "avg": 5.2,
-      "visits": 7,
-      "median": 3.0,
-      "over10": 14
+     "Global Dialer": {
+      "avg": 36.3,
+      "visits": 36,
+      "median": 4.5,
+      "over10": 42
      },
      "Apollo Alt": {
       "avg": 13.7,
@@ -2108,35 +2060,47 @@
       "median": 3.0,
       "over10": 33
      },
-     "Orum Alt": {
-      "avg": 43.3,
-      "visits": 11,
-      "median": 13.0,
-      "over10": 55
-     },
-     "Salesloft Alt": {
-      "avg": 29.3,
-      "visits": 14,
-      "median": 2.0,
-      "over10": 29
-     },
-     "Dialer Pricing": {
-      "avg": 50.6,
-      "visits": 151,
-      "median": 2.0,
-      "over10": 28
-     },
      "Homepage": {
       "avg": 21.8,
       "visits": 1851,
       "median": 1.0,
       "over10": 17
      },
-     "Global Dialer": {
-      "avg": 36.3,
-      "visits": 36,
-      "median": 4.5,
-      "over10": 42
+     "India Dialer": {
+      "avg": 125.2,
+      "visits": 46,
+      "median": 6.5,
+      "over10": 39
+     },
+     "SEP Landing": {
+      "avg": 0.0,
+      "visits": 1,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Nooks Alt": {
+      "avg": 32.3,
+      "visits": 8,
+      "median": 3.0,
+      "over10": 38
+     },
+     "Videos (Resources)": {
+      "avg": 65.4,
+      "visits": 100,
+      "median": 4.0,
+      "over10": 33
+     },
+     "AI Call Coaching": {
+      "avg": 59.2,
+      "visits": 21,
+      "median": 6.0,
+      "over10": 33
+     },
+     "Cold Calling": {
+      "avg": 5.2,
+      "visits": 7,
+      "median": 3.0,
+      "over10": 14
      },
      "Reply Alt": {
       "avg": 35.0,
@@ -2144,17 +2108,53 @@
       "median": 15.5,
       "over10": 50
      },
+     "Connect AI": {
+      "avg": 46.4,
+      "visits": 87,
+      "median": 4.0,
+      "over10": 28
+     },
+     "Dialer Pricing": {
+      "avg": 50.6,
+      "visits": 151,
+      "median": 2.0,
+      "over10": 28
+     },
+     "Salesloft Alt": {
+      "avg": 29.3,
+      "visits": 14,
+      "median": 2.0,
+      "over10": 29
+     },
      "Power Dialer": {
       "avg": 58.0,
       "visits": 16,
       "median": 15.0,
       "over10": 56
      },
+     "Parallel Dialer": {
+      "avg": 18.3,
+      "visits": 42,
+      "median": 2.0,
+      "over10": 21
+     },
+     "US Dialer": {
+      "avg": 22.1,
+      "visits": 48,
+      "median": 2.0,
+      "over10": 17
+     },
      "Outreach Alt": {
       "avg": 39.0,
       "visits": 28,
       "median": 9.0,
       "over10": 50
+     },
+     "Orum Alt": {
+      "avg": 43.3,
+      "visits": 11,
+      "median": 13.0,
+      "over10": 55
      }
     }
    },
@@ -2351,65 +2351,11 @@
      "over10": 31
     },
     "pages": {
-     "Connect AI": {
-      "avg": 38.6,
-      "visits": 46,
-      "median": 1.5,
-      "over10": 26
-     },
-     "AI Call Coaching": {
-      "avg": 10.2,
-      "visits": 16,
-      "median": 3.5,
-      "over10": 12
-     },
-     "Homepage": {
-      "avg": 17.6,
-      "visits": 1932,
-      "median": 1.0,
-      "over10": 18
-     },
-     "Parallel Dialer": {
-      "avg": 31.2,
-      "visits": 19,
-      "median": 4.0,
-      "over10": 42
-     },
-     "US Dialer": {
-      "avg": 8.8,
-      "visits": 31,
-      "median": 3.0,
-      "over10": 23
-     },
-     "Videos (Resources)": {
-      "avg": 98.6,
-      "visits": 74,
-      "median": 12.5,
-      "over10": 53
-     },
-     "India Dialer": {
-      "avg": 56.0,
-      "visits": 29,
-      "median": 7.0,
-      "over10": 38
-     },
-     "Nooks Alt": {
-      "avg": 53.0,
-      "visits": 5,
-      "median": 18.0,
-      "over10": 60
-     },
      "Global Dialer": {
       "avg": 56.5,
       "visits": 13,
       "median": 11.0,
       "over10": 54
-     },
-     "Reply Alt": {
-      "avg": 52.3,
-      "visits": 5,
-      "median": 48.0,
-      "over10": 60
      },
      "Cold Calling": {
       "avg": 28.0,
@@ -2423,17 +2369,17 @@
       "median": 0.0,
       "over10": 18
      },
-     "Power Dialer": {
-      "avg": 12.8,
-      "visits": 11,
-      "median": 1.0,
-      "over10": 27
+     "Reply Alt": {
+      "avg": 52.3,
+      "visits": 5,
+      "median": 48.0,
+      "over10": 60
      },
-     "Outreach Alt": {
-      "avg": 35.2,
-      "visits": 10,
-      "median": 6.5,
-      "over10": 40
+     "Connect AI": {
+      "avg": 38.6,
+      "visits": 46,
+      "median": 1.5,
+      "over10": 26
      },
      "SEP Pricing": {
       "avg": 47.0,
@@ -2441,23 +2387,77 @@
       "median": 4.0,
       "over10": 33
      },
-     "Salesloft Alt": {
-      "avg": 41.8,
-      "visits": 7,
-      "median": 4.0,
-      "over10": 29
-     },
      "Orum Alt": {
       "avg": 59.0,
       "visits": 5,
       "median": 5.0,
       "over10": 20
      },
+     "Homepage": {
+      "avg": 17.6,
+      "visits": 1932,
+      "median": 1.0,
+      "over10": 18
+     },
      "Dialer Pricing": {
       "avg": 33.0,
       "visits": 192,
       "median": 3.0,
       "over10": 30
+     },
+     "India Dialer": {
+      "avg": 56.0,
+      "visits": 29,
+      "median": 7.0,
+      "over10": 38
+     },
+     "Salesloft Alt": {
+      "avg": 41.8,
+      "visits": 7,
+      "median": 4.0,
+      "over10": 29
+     },
+     "Power Dialer": {
+      "avg": 12.8,
+      "visits": 11,
+      "median": 1.0,
+      "over10": 27
+     },
+     "Parallel Dialer": {
+      "avg": 31.2,
+      "visits": 19,
+      "median": 4.0,
+      "over10": 42
+     },
+     "US Dialer": {
+      "avg": 8.8,
+      "visits": 31,
+      "median": 3.0,
+      "over10": 23
+     },
+     "Nooks Alt": {
+      "avg": 53.0,
+      "visits": 5,
+      "median": 18.0,
+      "over10": 60
+     },
+     "Outreach Alt": {
+      "avg": 35.2,
+      "visits": 10,
+      "median": 6.5,
+      "over10": 40
+     },
+     "Videos (Resources)": {
+      "avg": 98.6,
+      "visits": 74,
+      "median": 12.5,
+      "over10": 53
+     },
+     "AI Call Coaching": {
+      "avg": 10.2,
+      "visits": 16,
+      "median": 3.5,
+      "over10": 12
      }
     }
    },
@@ -2654,59 +2654,11 @@
      "over10": 32
     },
     "pages": {
-     "Connect AI": {
-      "avg": 22.1,
-      "visits": 73,
-      "median": 4.0,
-      "over10": 38
-     },
-     "AI Call Coaching": {
-      "avg": 13.5,
-      "visits": 2,
-      "median": 13.5,
-      "over10": 100
-     },
-     "SEP Landing": {
-      "avg": 0.0,
-      "visits": 2,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Parallel Dialer": {
-      "avg": 61.6,
-      "visits": 42,
-      "median": 6.0,
-      "over10": 36
-     },
-     "US Dialer": {
-      "avg": 25.7,
-      "visits": 17,
-      "median": 2.0,
-      "over10": 29
-     },
-     "Videos (Resources)": {
-      "avg": 58.6,
-      "visits": 41,
-      "median": 9.0,
-      "over10": 46
-     },
-     "India Dialer": {
-      "avg": 40.8,
-      "visits": 46,
-      "median": 4.0,
-      "over10": 26
-     },
-     "Nooks Alt": {
-      "avg": 208.2,
-      "visits": 14,
-      "median": 19.0,
-      "over10": 57
-     },
-     "Cold Calling": {
-      "avg": 3.5,
-      "visits": 7,
-      "median": 2.0,
-      "over10": 0
+     "Global Dialer": {
+      "avg": 24.7,
+      "visits": 4,
+      "median": 11.0,
+      "over10": 50
      },
      "Apollo Alt": {
       "avg": 73.2,
@@ -2720,35 +2672,47 @@
       "median": 2.0,
       "over10": 33
      },
-     "Orum Alt": {
-      "avg": 16.2,
-      "visits": 6,
-      "median": 3.5,
-      "over10": 17
-     },
-     "Salesloft Alt": {
-      "avg": 3.0,
-      "visits": 7,
-      "median": 0.0,
-      "over10": 14
-     },
-     "Dialer Pricing": {
-      "avg": 101.6,
-      "visits": 172,
-      "median": 3.0,
-      "over10": 28
-     },
      "Homepage": {
       "avg": 22.0,
       "visits": 2185,
       "median": 2.0,
       "over10": 20
      },
-     "Global Dialer": {
-      "avg": 24.7,
-      "visits": 4,
-      "median": 11.0,
-      "over10": 50
+     "India Dialer": {
+      "avg": 40.8,
+      "visits": 46,
+      "median": 4.0,
+      "over10": 26
+     },
+     "SEP Landing": {
+      "avg": 0.0,
+      "visits": 2,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Nooks Alt": {
+      "avg": 208.2,
+      "visits": 14,
+      "median": 19.0,
+      "over10": 57
+     },
+     "Videos (Resources)": {
+      "avg": 58.6,
+      "visits": 41,
+      "median": 9.0,
+      "over10": 46
+     },
+     "AI Call Coaching": {
+      "avg": 13.5,
+      "visits": 2,
+      "median": 13.5,
+      "over10": 100
+     },
+     "Cold Calling": {
+      "avg": 3.5,
+      "visits": 7,
+      "median": 2.0,
+      "over10": 0
      },
      "Reply Alt": {
       "avg": 62.0,
@@ -2756,11 +2720,47 @@
       "median": 13.5,
       "over10": 75
      },
+     "Connect AI": {
+      "avg": 22.1,
+      "visits": 73,
+      "median": 4.0,
+      "over10": 38
+     },
+     "Dialer Pricing": {
+      "avg": 101.6,
+      "visits": 172,
+      "median": 3.0,
+      "over10": 28
+     },
+     "Salesloft Alt": {
+      "avg": 3.0,
+      "visits": 7,
+      "median": 0.0,
+      "over10": 14
+     },
      "Power Dialer": {
       "avg": 40.7,
       "visits": 18,
       "median": 6.5,
       "over10": 44
+     },
+     "Parallel Dialer": {
+      "avg": 61.6,
+      "visits": 42,
+      "median": 6.0,
+      "over10": 36
+     },
+     "Sales Dialer": {
+      "avg": 29.0,
+      "visits": 2,
+      "median": 14.5,
+      "over10": 50
+     },
+     "US Dialer": {
+      "avg": 25.7,
+      "visits": 17,
+      "median": 2.0,
+      "over10": 29
      },
      "Outreach Alt": {
       "avg": 28.2,
@@ -2768,11 +2768,11 @@
       "median": 8.0,
       "over10": 47
      },
-     "Sales Dialer": {
-      "avg": 29.0,
-      "visits": 2,
-      "median": 14.5,
-      "over10": 50
+     "Orum Alt": {
+      "avg": 16.2,
+      "visits": 6,
+      "median": 3.5,
+      "over10": 17
      }
     }
    },
@@ -2969,59 +2969,11 @@
      "over10": 28
     },
     "pages": {
-     "Connect AI": {
-      "avg": 18.6,
-      "visits": 77,
-      "median": 3.0,
-      "over10": 29
-     },
-     "AI Call Coaching": {
-      "avg": 8.0,
-      "visits": 1,
-      "median": 8.0,
-      "over10": 0
-     },
-     "SEP Landing": {
-      "avg": 0.0,
-      "visits": 1,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Parallel Dialer": {
-      "avg": 58.3,
-      "visits": 37,
-      "median": 10.0,
-      "over10": 49
-     },
-     "US Dialer": {
-      "avg": 23.3,
-      "visits": 15,
-      "median": 10.0,
-      "over10": 40
-     },
-     "Videos (Resources)": {
-      "avg": 22.6,
-      "visits": 28,
-      "median": 5.5,
-      "over10": 36
-     },
-     "India Dialer": {
-      "avg": 20.7,
-      "visits": 21,
-      "median": 3.0,
-      "over10": 29
-     },
-     "Nooks Alt": {
-      "avg": 50.1,
-      "visits": 35,
-      "median": 2.0,
-      "over10": 23
-     },
-     "Cold Calling": {
-      "avg": 1.7,
-      "visits": 3,
-      "median": 0.0,
-      "over10": 0
+     "Global Dialer": {
+      "avg": 8.2,
+      "visits": 10,
+      "median": 1.5,
+      "over10": 20
      },
      "Apollo Alt": {
       "avg": 28.5,
@@ -3035,17 +2987,59 @@
       "median": 3.0,
       "over10": 34
      },
-     "Salesloft Alt": {
-      "avg": 23.6,
+     "Homepage": {
+      "avg": 19.6,
+      "visits": 1958,
+      "median": 1.0,
+      "over10": 16
+     },
+     "India Dialer": {
+      "avg": 20.7,
+      "visits": 21,
+      "median": 3.0,
+      "over10": 29
+     },
+     "SEP Landing": {
+      "avg": 0.0,
+      "visits": 1,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Nooks Alt": {
+      "avg": 50.1,
+      "visits": 35,
+      "median": 2.0,
+      "over10": 23
+     },
+     "Videos (Resources)": {
+      "avg": 22.6,
+      "visits": 28,
+      "median": 5.5,
+      "over10": 36
+     },
+     "AI Call Coaching": {
+      "avg": 8.0,
+      "visits": 1,
+      "median": 8.0,
+      "over10": 0
+     },
+     "Cold Calling": {
+      "avg": 1.7,
+      "visits": 3,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Reply Alt": {
+      "avg": 11.1,
       "visits": 10,
-      "median": 2.5,
+      "median": 0.5,
       "over10": 30
      },
-     "Orum Alt": {
-      "avg": 10.6,
-      "visits": 14,
+     "Connect AI": {
+      "avg": 18.6,
+      "visits": 77,
       "median": 3.0,
-      "over10": 14
+      "over10": 29
      },
      "Dialer Pricing": {
       "avg": 69.6,
@@ -3053,22 +3047,10 @@
       "median": 4.0,
       "over10": 36
      },
-     "Homepage": {
-      "avg": 19.6,
-      "visits": 1958,
-      "median": 1.0,
-      "over10": 16
-     },
-     "Global Dialer": {
-      "avg": 8.2,
+     "Salesloft Alt": {
+      "avg": 23.6,
       "visits": 10,
-      "median": 1.5,
-      "over10": 20
-     },
-     "Reply Alt": {
-      "avg": 11.1,
-      "visits": 10,
-      "median": 0.5,
+      "median": 2.5,
       "over10": 30
      },
      "Power Dialer": {
@@ -3077,11 +3059,29 @@
       "median": 3.0,
       "over10": 33
      },
+     "Parallel Dialer": {
+      "avg": 58.3,
+      "visits": 37,
+      "median": 10.0,
+      "over10": 49
+     },
+     "US Dialer": {
+      "avg": 23.3,
+      "visits": 15,
+      "median": 10.0,
+      "over10": 40
+     },
      "Outreach Alt": {
       "avg": 26.6,
       "visits": 18,
       "median": 2.0,
       "over10": 39
+     },
+     "Orum Alt": {
+      "avg": 10.6,
+      "visits": 14,
+      "median": 3.0,
+      "over10": 14
      }
     }
    },
@@ -3278,65 +3278,11 @@
      "over10": 30
     },
     "pages": {
-     "Connect AI": {
-      "avg": 27.3,
-      "visits": 44,
-      "median": 5.0,
-      "over10": 36
-     },
-     "AI Call Coaching": {
-      "avg": 22.3,
-      "visits": 20,
-      "median": 3.0,
-      "over10": 20
-     },
-     "Homepage": {
-      "avg": 17.6,
-      "visits": 1584,
-      "median": 1.0,
-      "over10": 16
-     },
-     "US Dialer": {
-      "avg": 21.8,
-      "visits": 33,
-      "median": 2.0,
-      "over10": 27
-     },
-     "Parallel Dialer": {
-      "avg": 33.0,
-      "visits": 23,
-      "median": 8.0,
-      "over10": 43
-     },
-     "Videos (Resources)": {
-      "avg": 72.5,
-      "visits": 44,
-      "median": 12.0,
-      "over10": 50
-     },
-     "India Dialer": {
-      "avg": 21.5,
-      "visits": 18,
-      "median": 6.5,
-      "over10": 39
-     },
-     "Nooks Alt": {
-      "avg": 9.7,
-      "visits": 7,
-      "median": 3.0,
-      "over10": 29
-     },
      "Global Dialer": {
       "avg": 9.4,
       "visits": 11,
       "median": 2.0,
       "over10": 18
-     },
-     "Reply Alt": {
-      "avg": 23.8,
-      "visits": 12,
-      "median": 2.5,
-      "over10": 33
      },
      "Cold Calling": {
       "avg": 8.3,
@@ -3350,17 +3296,17 @@
       "median": 1.0,
       "over10": 18
      },
-     "Power Dialer": {
-      "avg": 15.3,
-      "visits": 4,
+     "Reply Alt": {
+      "avg": 23.8,
+      "visits": 12,
       "median": 2.5,
-      "over10": 25
+      "over10": 33
      },
-     "Outreach Alt": {
-      "avg": 41.4,
-      "visits": 22,
-      "median": 2.0,
-      "over10": 32
+     "Connect AI": {
+      "avg": 27.3,
+      "visits": 44,
+      "median": 5.0,
+      "over10": 36
      },
      "SEP Pricing": {
       "avg": 36.2,
@@ -3368,11 +3314,35 @@
       "median": 4.0,
       "over10": 32
      },
-     "Orum Alt": {
-      "avg": 44.3,
-      "visits": 12,
-      "median": 7.0,
-      "over10": 50
+     "Homepage": {
+      "avg": 17.6,
+      "visits": 1584,
+      "median": 1.0,
+      "over10": 16
+     },
+     "Dialer Pricing": {
+      "avg": 30.2,
+      "visits": 104,
+      "median": 3.0,
+      "over10": 36
+     },
+     "India Dialer": {
+      "avg": 21.5,
+      "visits": 18,
+      "median": 6.5,
+      "over10": 39
+     },
+     "AI Call Coaching": {
+      "avg": 22.3,
+      "visits": 20,
+      "median": 3.0,
+      "over10": 20
+     },
+     "Power Dialer": {
+      "avg": 15.3,
+      "visits": 4,
+      "median": 2.5,
+      "over10": 25
      },
      "Salesloft Alt": {
       "avg": 2.5,
@@ -3380,11 +3350,41 @@
       "median": 0.0,
       "over10": 12
      },
-     "Dialer Pricing": {
-      "avg": 30.2,
-      "visits": 104,
+     "Parallel Dialer": {
+      "avg": 33.0,
+      "visits": 23,
+      "median": 8.0,
+      "over10": 43
+     },
+     "US Dialer": {
+      "avg": 21.8,
+      "visits": 33,
+      "median": 2.0,
+      "over10": 27
+     },
+     "Nooks Alt": {
+      "avg": 9.7,
+      "visits": 7,
       "median": 3.0,
-      "over10": 36
+      "over10": 29
+     },
+     "Outreach Alt": {
+      "avg": 41.4,
+      "visits": 22,
+      "median": 2.0,
+      "over10": 32
+     },
+     "Videos (Resources)": {
+      "avg": 72.5,
+      "visits": 44,
+      "median": 12.0,
+      "over10": 50
+     },
+     "Orum Alt": {
+      "avg": 44.3,
+      "visits": 12,
+      "median": 7.0,
+      "over10": 50
      }
     }
    },
@@ -3581,41 +3581,29 @@
      "over10": 34
     },
     "pages": {
-     "Dynamic Presence": {
-      "avg": 85.8,
-      "visits": 161,
-      "median": 7.0,
-      "over10": 43
+     "Global Dialer": {
+      "avg": 38.9,
+      "visits": 25,
+      "median": 12.0,
+      "over10": 52
      },
-     "Connect AI": {
-      "avg": 45.0,
-      "visits": 49,
-      "median": 9.0,
-      "over10": 43
-     },
-     "AI Call Coaching": {
-      "avg": 11.8,
-      "visits": 6,
-      "median": 3.0,
-      "over10": 17
-     },
-     "US Dialer": {
-      "avg": 40.3,
-      "visits": 50,
-      "median": 6.5,
-      "over10": 38
-     },
-     "Parallel Dialer": {
-      "avg": 45.3,
-      "visits": 32,
+     "Apollo Alt": {
+      "avg": 16.1,
+      "visits": 19,
       "median": 1.0,
-      "over10": 28
+      "over10": 32
      },
-     "Videos (Resources)": {
-      "avg": 97.0,
-      "visits": 91,
-      "median": 5.0,
-      "over10": 41
+     "SEP Pricing": {
+      "avg": 42.8,
+      "visits": 415,
+      "median": 3.0,
+      "over10": 32
+     },
+     "Homepage": {
+      "avg": 20.0,
+      "visits": 1984,
+      "median": 2.0,
+      "over10": 17
      },
      "India Dialer": {
       "avg": 6.8,
@@ -3635,22 +3623,46 @@
       "median": 13.5,
       "over10": 56
      },
+     "Videos (Resources)": {
+      "avg": 97.0,
+      "visits": 91,
+      "median": 5.0,
+      "over10": 41
+     },
+     "AI Call Coaching": {
+      "avg": 11.8,
+      "visits": 6,
+      "median": 3.0,
+      "over10": 17
+     },
+     "Dynamic Presence": {
+      "avg": 85.8,
+      "visits": 161,
+      "median": 7.0,
+      "over10": 43
+     },
      "Cold Calling": {
       "avg": 6.7,
       "visits": 4,
       "median": 3.5,
       "over10": 25
      },
-     "Apollo Alt": {
-      "avg": 16.1,
-      "visits": 19,
-      "median": 1.0,
-      "over10": 32
+     "Reply Alt": {
+      "avg": 12.4,
+      "visits": 10,
+      "median": 0.5,
+      "over10": 10
      },
-     "SEP Pricing": {
-      "avg": 42.8,
-      "visits": 415,
-      "median": 3.0,
+     "Connect AI": {
+      "avg": 45.0,
+      "visits": 49,
+      "median": 9.0,
+      "over10": 43
+     },
+     "Dialer Pricing": {
+      "avg": 76.3,
+      "visits": 208,
+      "median": 2.0,
       "over10": 32
      },
      "Salesloft Alt": {
@@ -3659,47 +3671,35 @@
       "median": 2.0,
       "over10": 38
      },
-     "Orum Alt": {
-      "avg": 24.9,
-      "visits": 11,
-      "median": 3.0,
-      "over10": 36
-     },
-     "Dialer Pricing": {
-      "avg": 76.3,
-      "visits": 208,
-      "median": 2.0,
-      "over10": 32
-     },
-     "Homepage": {
-      "avg": 20.0,
-      "visits": 1984,
-      "median": 2.0,
-      "over10": 17
-     },
-     "Global Dialer": {
-      "avg": 38.9,
-      "visits": 25,
-      "median": 12.0,
-      "over10": 52
-     },
-     "Reply Alt": {
-      "avg": 12.4,
-      "visits": 10,
-      "median": 0.5,
-      "over10": 10
-     },
      "Power Dialer": {
       "avg": 29.8,
       "visits": 7,
       "median": 18.0,
       "over10": 57
      },
+     "Parallel Dialer": {
+      "avg": 45.3,
+      "visits": 32,
+      "median": 1.0,
+      "over10": 28
+     },
+     "US Dialer": {
+      "avg": 40.3,
+      "visits": 50,
+      "median": 6.5,
+      "over10": 38
+     },
      "Outreach Alt": {
       "avg": 37.0,
       "visits": 40,
       "median": 5.5,
       "over10": 35
+     },
+     "Orum Alt": {
+      "avg": 24.9,
+      "visits": 11,
+      "median": 3.0,
+      "over10": 36
      }
     }
    },
@@ -3709,53 +3709,53 @@
    "partial": false
   },
   {
-   "visitors": 1436,
-   "visitors_raw": 3153,
-   "demos": 7,
-   "trials": 13,
+   "visitors": 1471,
+   "visitors_raw": 3422,
+   "demos": 8,
+   "trials": 14,
    "demo_mql": 1,
    "trial_mql": 1,
-   "conv": 1.39,
+   "conv": 1.5,
    "regions": {
     "AMEA": {
-     "visitors": 618,
+     "visitors": 638,
      "demos": 3,
      "trials": 9
     },
     "North America": {
-     "visitors": 569,
-     "demos": 2,
-     "trials": 2
+     "visitors": 574,
+     "demos": 3,
+     "trials": 3
     },
     "Europe / UK": {
-     "visitors": 171,
+     "visitors": 178,
      "demos": 1,
      "trials": 2
     },
     "Latin America": {
-     "visitors": 75,
+     "visitors": 79,
      "demos": 0,
      "trials": 0
     }
    },
    "sources": {
     "Organic Search (SEO and AEO)": {
-     "visitors": 474,
-     "demos": 4,
-     "trials": 0
+     "visitors": 510,
+     "demos": 5,
+     "trials": 1
     },
     "Direct (source not found)": {
-     "visitors": 756,
+     "visitors": 740,
      "demos": 2,
      "trials": 8
     },
     "Social Media": {
-     "visitors": 27,
+     "visitors": 31,
      "demos": 0,
      "trials": 0
     },
     "Email": {
-     "visitors": 29,
+     "visitors": 32,
      "demos": 0,
      "trials": 0
     },
@@ -3765,7 +3765,7 @@
      "trials": 3
     },
     "Paid Search (Google Ads)": {
-     "visitors": 135,
+     "visitors": 139,
      "demos": 1,
      "trials": 2
     },
@@ -3777,27 +3777,27 @@
    },
    "pages": {
     "Homepage": {
-     "visitors": 671,
+     "visitors": 697,
      "demos": 4,
      "trials": 6
     },
     "SEP Pricing": {
-     "visitors": 126,
+     "visitors": 131,
+     "demos": 1,
+     "trials": 1
+    },
+    "Dialer Pricing": {
+     "visitors": 51,
      "demos": 1,
      "trials": 0
     },
-    "Dialer Pricing": {
-     "visitors": 50,
-     "demos": 0,
-     "trials": 0
-    },
     "Connect AI": {
-     "visitors": 25,
+     "visitors": 29,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 15,
+     "visitors": 14,
      "demos": 0,
      "trials": 0
     },
@@ -3812,12 +3812,12 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 6,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
     "Apollo Alt": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -3832,12 +3832,12 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 3,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
     "Nooks Alt": {
-     "visitors": 6,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -3847,7 +3847,7 @@
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 5,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
@@ -3857,7 +3857,7 @@
      "trials": 0
     },
     "India Dialer": {
-     "visitors": 8,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
@@ -3877,7 +3877,7 @@
      "trials": 0
     },
     "Reply Alt": {
-     "visitors": 4,
+     "visitors": 2,
      "demos": 0,
      "trials": 0
     },
@@ -3889,57 +3889,45 @@
    },
    "engagement": {
     "site": {
-     "avg": 35.1,
-     "users": 1297,
-     "visits": 3205,
+     "avg": 35.4,
+     "users": 1334,
+     "visits": 3392,
      "median": 2.0,
-     "over10": 28
+     "over10": 27
     },
     "pages": {
-     "Dynamic Presence": {
-      "avg": 22.7,
-      "visits": 41,
-      "median": 3.0,
-      "over10": 27
-     },
-     "Connect AI": {
-      "avg": 17.7,
-      "visits": 40,
+     "Global Dialer": {
+      "avg": 33.5,
+      "visits": 6,
       "median": 2.0,
-      "over10": 20
-     },
-     "AI Call Coaching": {
-      "avg": 1.0,
-      "visits": 5,
-      "median": 0.0,
-      "over10": 0
-     },
-     "US Dialer": {
-      "avg": 43.4,
-      "visits": 22,
-      "median": 16.5,
-      "over10": 55
-     },
-     "Parallel Dialer": {
-      "avg": 7.3,
-      "visits": 3,
-      "median": 6.0,
       "over10": 33
      },
-     "Videos (Resources)": {
-      "avg": 20.6,
-      "visits": 21,
+     "Apollo Alt": {
+      "avg": 8.6,
+      "visits": 9,
       "median": 1.0,
-      "over10": 43
+      "over10": 22
+     },
+     "SEP Pricing": {
+      "avg": 37.3,
+      "visits": 262,
+      "median": 2.0,
+      "over10": 29
+     },
+     "Homepage": {
+      "avg": 19.1,
+      "visits": 1722,
+      "median": 1.0,
+      "over10": 16
      },
      "India Dialer": {
-      "avg": 26.6,
-      "visits": 16,
+      "avg": 24.2,
+      "visits": 17,
       "median": 4.0,
-      "over10": 25
+      "over10": 24
      },
      "Nooks Alt": {
-      "avg": 90.7,
+      "avg": 108.8,
       "visits": 10,
       "median": 8.5,
       "over10": 40
@@ -3950,23 +3938,47 @@
       "median": 7.0,
       "over10": 50
      },
-     "Cold Calling": {
-      "avg": 1.3,
-      "visits": 2,
-      "median": 1.5,
+     "Videos (Resources)": {
+      "avg": 22.1,
+      "visits": 23,
+      "median": 0.0,
+      "over10": 39
+     },
+     "AI Call Coaching": {
+      "avg": 1.2,
+      "visits": 5,
+      "median": 0.0,
       "over10": 0
      },
-     "Apollo Alt": {
-      "avg": 7.5,
-      "visits": 8,
-      "median": 1.0,
-      "over10": 25
+     "Dynamic Presence": {
+      "avg": 22.7,
+      "visits": 41,
+      "median": 3.0,
+      "over10": 27
      },
-     "SEP Pricing": {
-      "avg": 37.7,
-      "visits": 246,
+     "Cold Calling": {
+      "avg": 1.3,
+      "visits": 3,
+      "median": 1.0,
+      "over10": 0
+     },
+     "Reply Alt": {
+      "avg": 12.0,
+      "visits": 3,
+      "median": 0.0,
+      "over10": 33
+     },
+     "Connect AI": {
+      "avg": 16.4,
+      "visits": 45,
       "median": 2.0,
-      "over10": 29
+      "over10": 22
+     },
+     "Dialer Pricing": {
+      "avg": 38.9,
+      "visits": 119,
+      "median": 2.0,
+      "over10": 31
      },
      "Salesloft Alt": {
       "avg": 35.8,
@@ -3974,65 +3986,42 @@
       "median": 3.5,
       "over10": 38
      },
-     "Orum Alt": {
-      "avg": 18.3,
-      "visits": 9,
-      "median": 7.0,
-      "over10": 44
-     },
-     "Dialer Pricing": {
-      "avg": 39.3,
-      "visits": 113,
-      "median": 2.0,
-      "over10": 32
-     },
-     "Homepage": {
-      "avg": 18.7,
-      "visits": 1639,
-      "median": 1.0,
-      "over10": 16
-     },
-     "Global Dialer": {
-      "avg": 33.5,
-      "visits": 6,
-      "median": 2.0,
-      "over10": 33
-     },
-     "Reply Alt": {
-      "avg": 6.0,
-      "visits": 3,
-      "median": 0.0,
-      "over10": 33
-     },
      "Power Dialer": {
       "avg": 1.0,
       "visits": 1,
       "median": 1.0,
       "over10": 0
      },
+     "Parallel Dialer": {
+      "avg": 5.2,
+      "visits": 5,
+      "median": 4.0,
+      "over10": 20
+     },
+     "US Dialer": {
+      "avg": 43.4,
+      "visits": 22,
+      "median": 16.5,
+      "over10": 55
+     },
      "Outreach Alt": {
-      "avg": 16.5,
-      "visits": 8,
-      "median": 8.5,
-      "over10": 50
+      "avg": 12.4,
+      "visits": 11,
+      "median": 0.0,
+      "over10": 36
+     },
+     "Orum Alt": {
+      "avg": 18.3,
+      "visits": 9,
+      "median": 7.0,
+      "over10": 44
      }
     }
    },
    "start": "2026-11-02",
-   "end": "2026-11-07",
+   "end": "2026-11-08",
    "label": "Nov 2 - 8",
-   "partial": true,
-   "prior": {
-    "start": "2026-10-26",
-    "end": "2026-10-31",
-    "visitors": 1435,
-    "visitors_raw": 5646,
-    "demos": 11,
-    "trials": 15,
-    "demo_mql": 7,
-    "trial_mql": 2,
-    "conv": 1.81
-   }
+   "partial": false
   }
  ]
 }
