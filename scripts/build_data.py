@@ -46,11 +46,12 @@ def page_visitors(s, e):
         if p in NAME_BY_PATH: clean[NAME_BY_PATH[p]] = clean.get(NAME_BY_PATH[p], 0) + ga4.mv(r)[0]
     d7 = ga4.D6 + ["pagePath"]
     seg = {tuple(ga4.dv(r)): ga4.mv(r)[0] for r in ga4.run(ga4._and(TRK, ga4.SEG), ["totalUsers"], d7, s, e)}
-    for r in ga4.run(ga4._and(TRK, ga4.SEG, ga4.inl("eventName", ga4.KEYEV)), ["eventCount"], d7, s, e):
+    for r in ga4.run(ga4._and(TRK, ga4.SEG, ga4.inl("eventName", ga4.KEYEV)), ["totalUsers"], d7, s, e):
         k = tuple(ga4.dv(r))
         if ga4.mv(r)[0] > 0 and k in seg:
             p = k[6].rstrip("/") or "/"
-            if p in NAME_BY_PATH: clean[NAME_BY_PATH[p]] = clean.get(NAME_BY_PATH[p], 0) + seg[k]
+            # rescue only the people who did the key action, not everyone in the same minute/place/device group
+            if p in NAME_BY_PATH: clean[NAME_BY_PATH[p]] = clean.get(NAME_BY_PATH[p], 0) + min(seg[k], ga4.mv(r)[0])
     return clean
 
 
@@ -135,9 +136,9 @@ def _rescued(s, e):
     d = ga4.D6 + ["sessionSourceMedium"]
     seg = {tuple(ga4.dv(r)): ga4.mv(r)[0] for r in ga4.run(ga4.SEG, ["totalUsers"], d, s, e)}
     out = []
-    for r in ga4.run(ga4._and(ga4.SEG, ga4.inl("eventName", ga4.KEYEV)), ["eventCount"], d, s, e):
+    for r in ga4.run(ga4._and(ga4.SEG, ga4.inl("eventName", ga4.KEYEV)), ["totalUsers"], d, s, e):
         k = tuple(ga4.dv(r))
-        if ga4.mv(r)[0] > 0 and k in seg: out.append((k[1], k[5], k[6], seg[k]))
+        if ga4.mv(r)[0] > 0 and k in seg: out.append((k[1], k[5], k[6], min(seg[k], ga4.mv(r)[0])))   # only the people who acted
     return out
 
 

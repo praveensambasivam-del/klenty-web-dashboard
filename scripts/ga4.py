@@ -81,7 +81,7 @@ _CL = json.load(open(os.path.join(HERE, "..", "config", "derived_clusters.json")
 LINUX = AND(sf("operatingSystem", "Linux"), sf("sessionSource", "(direct)"))
 _GEO = OR(inl("country", ["China", "Hong Kong", "Japan", "Germany", "Ireland", "Netherlands", "South Korea", "France"]),
           AND(sf("country", "United States"), inl("city", ["(not set)", "Ashburn", "Flower Mound", "Glenview"])))
-BOTLIKE = OR(sf("country", "Singapore"), AND(sf("sessionSource", "(direct)"), OR(_GEO, *[
+BOTLIKE = OR(sf("country", "Singapore"), AND(sf("country", "United States"), sf("city", "Ashburn"), sf("operatingSystem", "(not set)")), AND(sf("sessionSource", "(direct)"), OR(_GEO, *[
     AND(sf("operatingSystem", x["os"]), sf("country", x["country"]), sf("city", x["city"])) for x in _CL])))
 CLEAN2 = AND(NOT(LINUX), NOT(BOTLIKE))
 SEG = OR(LINUX, BOTLIKE)
@@ -104,6 +104,7 @@ def real_visitors(base, s, e):
     """(raw, clean, rescued, real): real = bots removed + key-action visitors rescued from the removed groups."""
     raw, clean = distinct(base, s, e), distinct(_and(base, CLEAN2), s, e)
     seg = {tuple(dv(r)): mv(r)[0] for r in run(_and(base, SEG), ["totalUsers"], D6, s, e)}
-    ka = [tuple(dv(r)) for r in run(_and(base, SEG, inl("eventName", KEYEV)), ["eventCount"], D6, s, e) if mv(r)[0] > 0]
-    resc = sum(seg[k] for k in ka if k in seg)
+    # rescue only the people who did a key action, not everyone in the same minute/place/device group
+    ka = {tuple(dv(r)): mv(r)[0] for r in run(_and(base, SEG, inl("eventName", KEYEV)), ["totalUsers"], D6, s, e) if mv(r)[0] > 0}
+    resc = sum(min(seg[k], n) for k, n in ka.items() if k in seg)
     return raw, clean, resc, clean + resc

@@ -71,6 +71,30 @@
    "country": "United States",
    "city": "Kent",
    "sess": 20
+  },
+  {
+   "os": "Windows",
+   "country": "United States",
+   "city": "",
+   "sess": 23
+  },
+  {
+   "os": "Windows",
+   "country": "United States",
+   "city": "Ontario",
+   "sess": 9
+  },
+  {
+   "os": "Windows",
+   "country": "United States",
+   "city": "Santa Clara",
+   "sess": 6
+  },
+  {
+   "os": "(not set)",
+   "country": "United States",
+   "city": "Charleston",
+   "sess": 4
   }
  ]
 }
