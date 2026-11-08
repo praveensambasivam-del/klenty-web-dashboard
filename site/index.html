@@ -112,7 +112,8 @@ tr.nw td{background:#0b0b0b}
 
   <div class="sec" id="src">
     <div class="head"><div><h2>Sources, week over week</h2><div class="sub" id="ssub">Current week + past 3 weeks</div></div>
-      <div><label class="sl" for="selSrc">Source</label><select id="selSrc"></select></div></div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap"><div><label class="sl" for="selSReg">Region</label><select id="selSReg"></select></div>
+      <div><label class="sl" for="selSrc">Source</label><select id="selSrc"></select></div></div></div>
     <div class="legend">
       <span><i style="border-color:var(--vis)"></i>Visitors (left scale)</span>
       <span><i style="border-color:var(--dem)"></i>Demo requests (right scale)</span>
@@ -142,7 +143,7 @@ tr.nw td{background:#0b0b0b}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
 <script>
 (function(){
-var D=null, sel={week:null,from:null,to:null,reg:'All regions',src:'All sources',mon:null,tab:'site'}, charts={};
+var D=null, sel={week:null,from:null,to:null,reg:'All regions',sreg:'All regions',src:'All sources',mon:null,tab:'site'}, charts={};
 var $=function(id){return document.getElementById(id)};
 var fmtN=function(n){return Math.round(n).toLocaleString('en-US')};
 var fmtT=function(s){s=Math.round(s);return Math.floor(s/60)+'m '+String(s%60).padStart(2,'0')+'s'};
@@ -176,23 +177,30 @@ function render(){
 function renderTab(){
   var w=D.weeks[weekIdx(sel.week)];
   if(sel.tab==='site'){renderChart('chart','gsub','gnote',sel.reg,'regions','All regions');renderRegions()}
-  else if(sel.tab==='src'){renderChart('schart','ssub','snote',sel.src,'sources','All sources')}
+  else if(sel.tab==='src'){
+    var scoped=sel.sreg!=='All regions', allSrc=sel.src==='All sources';
+    if(!scoped)renderChart('schart','ssub','snote',sel.src,'sources','All sources');
+    else renderChart('schart','ssub','snote',sel.src,'region_sources','All sources',function(x){
+      var g=allSrc?(x.regions&&x.regions[sel.sreg]):(x.region_sources&&x.region_sources[sel.sreg]&&x.region_sources[sel.sreg][sel.src]);
+      return g?{v:g.visitors,d:g.demos,t:g.trials,ok:true}:{v:0,d:0,t:0,ok:false}},allSrc)}
   else if(sel.tab==='pg')renderPages(w);
   else renderEng(w);
 }
 
-function seriesFor(ws,key,name,all){
+function seriesFor(ws,key,name,all,getter){
   return ws.map(function(x){
+    if(getter)return getter(x);
     if(name===all)return {v:x.visitors,d:x.demos,t:x.trials,ok:true};
     var g=x[key]&&x[key][name]; return g?{v:g.visitors,d:g.demos,t:g.trials,ok:true}:{v:0,d:0,t:0,ok:false};});
 }
-function renderChart(cid,subId,noteId,name,key,all){
+function renderChart(cid,subId,noteId,name,key,all,getter,bigOverride){
   var a=weekIdx(sel.from), b=weekIdx(sel.to), ws=D.weeks.slice(a,b+1);
   $(subId).textContent=(a===D.weeks.length-4&&b===D.weeks.length-1)?'Current week + past 3 weeks':'Custom range: '+ws[0].label+' to '+ws[ws.length-1].label;
-  var ser=seriesFor(ws,key,name,all), missing=ser.some(function(s){return !s.ok});
+  var big=(bigOverride===undefined)?(name===all):bigOverride;
+  var ser=seriesFor(ws,key,name,all,getter), missing=ser.some(function(s){return !s.ok});
   var labels=ws.map(function(x){return x.label+(x.partial?' - now':'')});
   var V=ser.map(function(s){return s.v}),Dm=ser.map(function(s){return s.d}),Tr=ser.map(function(s){return s.t}),R=ser.map(function(s){return rate(s.d,s.t,s.v)});
-  var vmax=Math.max(200,Math.ceil(Math.max.apply(null,V)/0.66/(name===all?200:50))*(name===all?200:50)), dmax=Math.ceil(Math.max(6,Math.max.apply(null,Dm.concat(Tr)))/0.66/(name===all?5:2))*(name===all?5:2);
+  var vmax=Math.max(200,Math.ceil(Math.max.apply(null,V)/0.66/(big?200:50))*(big?200:50)), dmax=Math.ceil(Math.max(6,Math.max.apply(null,Dm.concat(Tr)))/0.66/(big?5:2))*(big?5:2);
   var rmin=Math.min.apply(null,R), rmax=Math.max.apply(null,R); if(rmax-rmin<0.4){rmax=rmin+0.4}
   var span=(rmax-rmin)/0.17, y2min=rmin-0.78*span, y2max=y2min+span;
   var last=ws.length-1, part=ws[last].partial;
@@ -210,7 +218,7 @@ function renderChart(cid,subId,noteId,name,key,all){
         y1:{position:'right',min:0,max:dmax,grid:{display:false},ticks:{color:'#a3a3a3',precision:0},border:{display:false},title:{display:true,text:'Demos and trials',color:'#fbbf24'}},
         y2:{display:false,min:y2min,max:y2max}}}};
   if(charts[cid])charts[cid].destroy(); charts[cid]=new Chart($(cid),cfg);
-  $(noteId).textContent=missing?'Some weeks have no '+(key==='regions'?'region':'source')+' data yet. The daily recalculation fills older weeks in.':(part?'The last week is not finished (dashed line).':'');
+  $(noteId).textContent=missing?'Some weeks have no '+(key==='regions'?'region':key==='sources'?'source':'region and source')+' data yet. The daily recalculation fills older weeks in.':(part?'The last week is not finished (dashed line).':'');
 }
 
 function renderRegions(){
@@ -257,6 +265,7 @@ function fillSelects(){
   ['selWeek','selFrom','selTo'].forEach(function(id){$(id).innerHTML=opts});
   $('selWeek').value=sel.week;$('selFrom').value=sel.from;$('selTo').value=sel.to;
   $('selReg').innerHTML=['All regions'].concat(REGS).map(function(r){return '<option>'+r+'</option>'}).join('');$('selReg').value=sel.reg;
+  $('selSReg').innerHTML=['All regions'].concat(REGS).map(function(r){return '<option>'+r+'</option>'}).join('');$('selSReg').value=sel.sreg;
   var srcs=Object.keys((D.weeks[D.weeks.length-1].sources)||{});
   $('selSrc').innerHTML=['All sources'].concat(srcs).map(function(r){return '<option>'+r+'</option>'}).join('');$('selSrc').value=sel.src;
   var ms=[];D.weeks.forEach(function(w){var k=w.start.slice(0,7);if(ms.indexOf(k)<0)ms.push(k)});
@@ -279,6 +288,7 @@ function setTab(t){sel.tab=t;document.querySelectorAll('#nav button').forEach(fu
   document.querySelectorAll('.sec').forEach(function(s){s.classList.toggle('on',s.id===t)});try{history.replaceState(null,'','#'+t)}catch(e){}if(D)renderTab()}
 $('nav').addEventListener('click',function(ev){var t=ev.target.dataset&&ev.target.dataset.s;if(t)setTab(t)});
 $('selReg').addEventListener('change',function(){sel.reg=this.value;renderTab()});
+$('selSReg').addEventListener('change',function(){sel.sreg=this.value;renderTab()});
 $('selSrc').addEventListener('change',function(){sel.src=this.value;renderTab()});
 $('selMon').addEventListener('change',function(){sel.mon=this.value;renderRegions()});
 $('chips').addEventListener('click',function(ev){var k=ev.target.dataset&&ev.target.dataset.k;if(!k||!D)return;var n=D.weeks.length;

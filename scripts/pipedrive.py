@@ -152,3 +152,15 @@ def group_stats(deals, s, e, out_ids):
             if r: reg[r][kind] += 1
             src[deal_source(x)][kind] += 1
     return reg, src
+
+
+def cross_stats(deals, s, e, out_ids):
+    """Demos and trials of the window for every region and source together: {region: {source: {demos, trials}}} (same picks as deal_stats)."""
+    dm = pick(deals, DEMO_TYPES, DEMO_PIPES, s, e, out_ids, True)
+    tr = pick(deals, TRIAL_TYPES, TRIAL_PIPES, s, e, out_ids, False)
+    out = {r: {n: {"demos": 0, "trials": 0} for n in SOURCES} for r in REGIONS}
+    for kind, rows in (("demos", dm), ("trials", tr)):
+        for x in rows:
+            r = deal_region(x)
+            if r: out[r][deal_source(x)][kind] += 1
+    return out

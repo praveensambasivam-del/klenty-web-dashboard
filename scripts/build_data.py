@@ -84,7 +84,7 @@ def engagement(s, e):
         p = ga4.dv(r)[0].rstrip("/") or "/"; m = ga4.mv(r)
         if p in NAME_BY_PATH:
             n = NAME_BY_PATH[p]; tot[n] = tot.get(n, 0) + m[0]; usr[n] = usr.get(n, 0) + m[1]
-    for r in ga4.run(ga4._and(TRK, ga4.CLEAN2), ["userEngagementDuration", "activeUsers"], ["pagePath"] + DIMS8, s, e):
+    for r in ga4.run(ga4._and(TRK, ga4.CLEAN2), ["userEngagementDuration", "activeUsers"], ["pagePath"] + [x for x in DIMS8 if x != "deviceCategory"], s, e):   # GA4 allows 9 dimensions per request; the site-host filter uses one
         d = ga4.dv(r); m = ga4.mv(r); n = int(m[1]); p = d[0].rstrip("/") or "/"
         if n >= 1 and p in NAME_BY_PATH: prow.setdefault(NAME_BY_PATH[p], []).append((m[0] / n, n))
     for n in set(tot) | set(prow):
@@ -155,6 +155,19 @@ def region_source_visitors(s, e):
     return {k: round(v) for k, v in reg.items()}, {k: round(v) for k, v in src.items()}
 
 
+def cross_visitors(s, e):
+    """Visitors for every region and source together: {region: {source: users}} (same source and region rules as region_source_visitors)."""
+    out = {r: {n: 0 for n in pd.SOURCES} for r in pd.REGIONS}
+    for n, f in SRC_FILTER.items():
+        for r in ga4.run(ga4._and(ga4.CLEAN2, f), ["totalUsers"], ["country"], s, e):
+            g = region_of(ga4.dv(r)[0])
+            if g: out[g][n] += ga4.mv(r)[0]
+    for country, ch, sm, n in _rescued(s, e):
+        g = region_of(country)
+        if g: out[g][source_of(ch, sm)] += n
+    return out
+
+
 # ------------------------------------------------------------------ one window
 def window_metrics(s, e, deals, out_ids, with_pages=True):
     m = site_numbers(s, e)
@@ -166,6 +179,8 @@ def window_metrics(s, e, deals, out_ids, with_pages=True):
         rd, sd = pd.group_stats(deals, s, e, out_ids)
         m["regions"] = {k: {"visitors": rv[k], **rd[k]} for k in pd.REGIONS}
         m["sources"] = {k: {"visitors": sv[k], **sd[k]} for k in pd.SOURCES}
+        cv, cd = cross_visitors(s, e), pd.cross_stats(deals, s, e, out_ids)
+        m["region_sources"] = {r: {n: {"visitors": round(cv[r][n]), **cd[r][n]} for n in pd.SOURCES} for r in pd.REGIONS}
         pv = page_visitors(s, e)
         m["pages"] = {p["name"]: {"visitors": round(pv.get(p["name"], 0)), **ds["pages"][p["name"]]} for p in PAGES}
     return m
