@@ -1,21 +1,21 @@
 {
  "weeks": [
   {
-   "visitors": 1497,
-   "visitors_raw": 2638,
+   "visitors": 1484,
+   "visitors_raw": 2619,
    "demos": 22,
    "trials": 20,
    "demo_mql": 3,
    "trial_mql": 4,
-   "conv": 2.81,
+   "conv": 2.83,
    "regions": {
     "AMEA": {
-     "visitors": 756,
+     "visitors": 746,
      "demos": 9,
      "trials": 11
     },
     "North America": {
-     "visitors": 514,
+     "visitors": 511,
      "demos": 12,
      "trials": 5
     },
@@ -37,7 +37,7 @@
      "trials": 13
     },
     "Direct (source not found)": {
-     "visitors": 400,
+     "visitors": 390,
      "demos": 4,
      "trials": 5
     },
@@ -52,7 +52,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 74,
+     "visitors": 71,
      "demos": 0,
      "trials": 2
     },
@@ -67,9 +67,159 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 427,
+      "demos": 9,
+      "trials": 6
+     },
+     "Direct (source not found)": {
+      "visitors": 218,
+      "demos": 0,
+      "trials": 3
+     },
+     "Social Media": {
+      "visitors": 17,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 50,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 39,
+      "demos": 0,
+      "trials": 2
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 13,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 209,
+      "demos": 7,
+      "trials": 4
+     },
+     "Direct (source not found)": {
+      "visitors": 129,
+      "demos": 3,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 111,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 24,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 40,
+      "demos": 2,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 91,
+      "demos": 0,
+      "trials": 3
+     },
+     "Direct (source not found)": {
+      "visitors": 23,
+      "demos": 1,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 49,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 8,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 30,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 19,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 933,
+     "visitors": 930,
      "demos": 12,
      "trials": 10
     },
@@ -84,17 +234,17 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 25,
+     "visitors": 23,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 10,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 1,
+     "visitors": 0,
      "demos": 0,
      "trials": 0
     },
@@ -124,7 +274,7 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -134,12 +284,12 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 15,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 20,
+     "visitors": 19,
      "demos": 0,
      "trials": 0
     },
@@ -149,7 +299,7 @@
      "trials": 0
     },
     "India Dialer": {
-     "visitors": 10,
+     "visitors": 8,
      "demos": 1,
      "trials": 0
     },
@@ -181,42 +331,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 46.6,
-     "users": 1461,
-     "visits": 4123,
+     "avg": 42.6,
+     "users": 1449,
+     "visits": 3803,
      "median": 3.0,
-     "over10": 33
+     "over10": 32
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 183.6,
-      "visits": 80,
-      "median": 7.0,
-      "over10": 41
-     },
-     "Apollo Alt": {
-      "avg": 28.0,
-      "visits": 24,
-      "median": 11.0,
-      "over10": 54
-     },
-     "SEP Pricing": {
-      "avg": 33.3,
-      "visits": 378,
-      "median": 3.0,
-      "over10": 34
-     },
-     "Homepage": {
-      "avg": 18.4,
-      "visits": 2002,
-      "median": 2.0,
-      "over10": 17
-     },
-     "India Dialer": {
-      "avg": 38.9,
-      "visits": 20,
-      "median": 12.5,
-      "over10": 55
+     "AI Call Coaching": {
+      "avg": 27.3,
+      "visits": 33,
+      "median": 4.0,
+      "over10": 33
      },
      "Nooks Alt": {
       "avg": 40.8,
@@ -225,15 +351,33 @@
       "over10": 56
      },
      "Videos (Resources)": {
-      "avg": 35.2,
-      "visits": 24,
-      "median": 13.0,
-      "over10": 54
+      "avg": 31.9,
+      "visits": 20,
+      "median": 10.0,
+      "over10": 50
      },
-     "AI Call Coaching": {
-      "avg": 26.0,
-      "visits": 35,
-      "median": 4.0,
+     "Connect AI": {
+      "avg": 55.5,
+      "visits": 60,
+      "median": 3.0,
+      "over10": 30
+     },
+     "Dialer Pricing": {
+      "avg": 32.0,
+      "visits": 143,
+      "median": 3.0,
+      "over10": 32
+     },
+     "SEP Pricing": {
+      "avg": 33.3,
+      "visits": 378,
+      "median": 3.0,
+      "over10": 34
+     },
+     "Sales Dialer": {
+      "avg": 23.2,
+      "visits": 29,
+      "median": 3.0,
       "over10": 31
      },
      "Cold Calling": {
@@ -248,17 +392,17 @@
       "median": 5.0,
       "over10": 42
      },
-     "Connect AI": {
-      "avg": 51.8,
-      "visits": 64,
-      "median": 3.0,
-      "over10": 28
+     "Apollo Alt": {
+      "avg": 28.0,
+      "visits": 24,
+      "median": 11.0,
+      "over10": 54
      },
-     "Dialer Pricing": {
-      "avg": 32.0,
-      "visits": 143,
-      "median": 3.0,
-      "over10": 32
+     "Homepage": {
+      "avg": 18.2,
+      "visits": 1977,
+      "median": 2.0,
+      "over10": 17
      },
      "Salesloft Alt": {
       "avg": 15.5,
@@ -266,35 +410,35 @@
       "median": 5.0,
       "over10": 33
      },
+     "Outreach Alt": {
+      "avg": 107.0,
+      "visits": 17,
+      "median": 16.0,
+      "over10": 59
+     },
+     "India Dialer": {
+      "avg": 46.4,
+      "visits": 17,
+      "median": 13.0,
+      "over10": 59
+     },
+     "Parallel Dialer": {
+      "avg": 48.9,
+      "visits": 17,
+      "median": 6.0,
+      "over10": 35
+     },
      "Power Dialer": {
       "avg": 45.2,
       "visits": 15,
       "median": 9.0,
       "over10": 40
      },
-     "Parallel Dialer": {
-      "avg": 43.4,
-      "visits": 18,
-      "median": 5.5,
-      "over10": 33
-     },
-     "Sales Dialer": {
-      "avg": 23.2,
-      "visits": 29,
-      "median": 3.0,
-      "over10": 31
-     },
-     "US Dialer": {
-      "avg": 1206.0,
-      "visits": 110,
-      "median": 0.0,
-      "over10": 21
-     },
-     "Outreach Alt": {
-      "avg": 107.0,
-      "visits": 17,
-      "median": 16.0,
-      "over10": 59
+     "Global Dialer": {
+      "avg": 74.3,
+      "visits": 19,
+      "median": 6.0,
+      "over10": 42
      },
      "Orum Alt": {
       "avg": 15.8,
@@ -310,8 +454,8 @@
    "partial": false
   },
   {
-   "visitors": 2425,
-   "visitors_raw": 6766,
+   "visitors": 2417,
+   "visitors_raw": 6753,
    "demos": 25,
    "trials": 12,
    "demo_mql": 8,
@@ -319,7 +463,7 @@
    "conv": 1.53,
    "regions": {
     "AMEA": {
-     "visitors": 1228,
+     "visitors": 1220,
      "demos": 10,
      "trials": 5
     },
@@ -346,7 +490,7 @@
      "trials": 6
     },
     "Direct (source not found)": {
-     "visitors": 1320,
+     "visitors": 1314,
      "demos": 9,
      "trials": 5
     },
@@ -361,7 +505,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 81,
+     "visitors": 79,
      "demos": 0,
      "trials": 1
     },
@@ -376,34 +520,184 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 452,
+      "demos": 6,
+      "trials": 3
+     },
+     "Direct (source not found)": {
+      "visitors": 667,
+      "demos": 3,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 46,
+      "demos": 1,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 28,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 42,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 200,
+      "demos": 5,
+      "trials": 2
+     },
+     "Direct (source not found)": {
+      "visitors": 160,
+      "demos": 3,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 5,
+      "demos": 1,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 121,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 21,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 48,
+      "demos": 1,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 83,
+      "demos": 1,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 210,
+      "demos": 3,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 36,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 15,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 1,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 27,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 274,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 1004,
+     "visitors": 999,
      "demos": 8,
      "trials": 5
     },
     "SEP Pricing": {
-     "visitors": 197,
+     "visitors": 194,
      "demos": 5,
      "trials": 2
     },
     "Dialer Pricing": {
-     "visitors": 62,
+     "visitors": 61,
      "demos": 2,
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 22,
+     "visitors": 19,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 24,
+     "visitors": 23,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 8,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -413,7 +707,7 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 18,
+     "visitors": 16,
      "demos": 0,
      "trials": 0
     },
@@ -423,27 +717,27 @@
      "trials": 0
     },
     "Salesloft Alt": {
-     "visitors": 12,
+     "visitors": 10,
      "demos": 0,
      "trials": 0
     },
     "Orum Alt": {
-     "visitors": 6,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 39,
+     "visitors": 37,
      "demos": 1,
      "trials": 0
     },
     "Nooks Alt": {
-     "visitors": 7,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 19,
+     "visitors": 18,
      "demos": 2,
      "trials": 0
     },
@@ -490,72 +784,30 @@
    },
    "engagement": {
     "site": {
-     "avg": 41.7,
-     "users": 2373,
-     "visits": 5359,
-     "median": 7.0,
-     "over10": 42
+     "avg": 36.5,
+     "users": 2365,
+     "visits": 4926,
+     "median": 6.0,
+     "over10": 41
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 80.4,
-      "visits": 86,
-      "median": 6.0,
-      "over10": 37
-     },
-     "Apollo Alt": {
-      "avg": 17.1,
-      "visits": 23,
-      "median": 5.0,
-      "over10": 30
-     },
-     "SEP Pricing": {
-      "avg": 43.5,
-      "visits": 502,
-      "median": 4.0,
-      "over10": 36
-     },
-     "Homepage": {
-      "avg": 18.4,
-      "visits": 2140,
-      "median": 2.0,
-      "over10": 22
-     },
-     "India Dialer": {
-      "avg": 26.6,
-      "visits": 32,
-      "median": 6.0,
-      "over10": 38
-     },
-     "SEP Landing": {
-      "avg": 2.0,
-      "visits": 2,
-      "median": 1.0,
-      "over10": 0
-     },
-     "Nooks Alt": {
-      "avg": 52.6,
-      "visits": 33,
-      "median": 7.0,
-      "over10": 45
-     },
-     "Videos (Resources)": {
-      "avg": 67.4,
-      "visits": 55,
-      "median": 12.0,
-      "over10": 51
-     },
      "AI Call Coaching": {
       "avg": 23.5,
       "visits": 28,
       "median": 5.0,
       "over10": 43
      },
-     "Cold Calling": {
-      "avg": 13.0,
-      "visits": 2,
-      "median": 13.0,
-      "over10": 50
+     "Connect AI": {
+      "avg": 33.4,
+      "visits": 38,
+      "median": 2.5,
+      "over10": 39
+     },
+     "Dialer Pricing": {
+      "avg": 64.4,
+      "visits": 167,
+      "median": 4.0,
+      "over10": 38
      },
      "Reply Alt": {
       "avg": 21.2,
@@ -563,35 +815,47 @@
       "median": 18.5,
       "over10": 83
      },
-     "Connect AI": {
-      "avg": 102.5,
-      "visits": 98,
-      "median": 11.0,
+     "Apollo Alt": {
+      "avg": 17.1,
+      "visits": 23,
+      "median": 5.0,
+      "over10": 30
+     },
+     "Homepage": {
+      "avg": 17.8,
+      "visits": 2074,
+      "median": 2.0,
+      "over10": 22
+     },
+     "SEP Landing": {
+      "avg": 2.0,
+      "visits": 2,
+      "median": 1.0,
+      "over10": 0
+     },
+     "Orum Alt": {
+      "avg": 16.2,
+      "visits": 5,
+      "median": 5.0,
+      "over10": 40
+     },
+     "Nooks Alt": {
+      "avg": 22.6,
+      "visits": 8,
+      "median": 13.5,
       "over10": 50
      },
-     "Dialer Pricing": {
-      "avg": 64.9,
-      "visits": 174,
-      "median": 4.0,
-      "over10": 38
+     "Videos (Resources)": {
+      "avg": 69.9,
+      "visits": 52,
+      "median": 12.0,
+      "over10": 52
      },
-     "Salesloft Alt": {
-      "avg": 47.5,
-      "visits": 34,
-      "median": 12.5,
-      "over10": 53
-     },
-     "Power Dialer": {
-      "avg": 15.5,
-      "visits": 16,
-      "median": 6.0,
-      "over10": 44
-     },
-     "Parallel Dialer": {
-      "avg": 35.5,
-      "visits": 82,
-      "median": 9.0,
-      "over10": 49
+     "SEP Pricing": {
+      "avg": 37.8,
+      "visits": 456,
+      "median": 3.0,
+      "over10": 35
      },
      "Sales Dialer": {
       "avg": 18.0,
@@ -599,23 +863,53 @@
       "median": 13.0,
       "over10": 54
      },
-     "US Dialer": {
-      "avg": 425.1,
-      "visits": 112,
-      "median": 14.5,
+     "Cold Calling": {
+      "avg": 13.0,
+      "visits": 2,
+      "median": 13.0,
+      "over10": 50
+     },
+     "Salesloft Alt": {
+      "avg": 32.0,
+      "visits": 16,
+      "median": 17.0,
       "over10": 56
      },
+     "US Dialer": {
+      "avg": 68.2,
+      "visits": 13,
+      "median": 11.0,
+      "over10": 54
+     },
      "Outreach Alt": {
-      "avg": 133.9,
-      "visits": 111,
+      "avg": 16.7,
+      "visits": 22,
+      "median": 5.0,
+      "over10": 41
+     },
+     "India Dialer": {
+      "avg": 26.6,
+      "visits": 32,
       "median": 6.0,
       "over10": 38
      },
-     "Orum Alt": {
-      "avg": 117.3,
-      "visits": 25,
+     "Parallel Dialer": {
+      "avg": 37.1,
+      "visits": 79,
       "median": 10.0,
+      "over10": 49
+     },
+     "Power Dialer": {
+      "avg": 15.5,
+      "visits": 16,
+      "median": 6.0,
       "over10": 44
+     },
+     "Global Dialer": {
+      "avg": 79.6,
+      "visits": 76,
+      "median": 6.0,
+      "over10": 37
      }
     }
    },
@@ -625,21 +919,21 @@
    "partial": false
   },
   {
-   "visitors": 1501,
-   "visitors_raw": 2908,
+   "visitors": 1436,
+   "visitors_raw": 2865,
    "demos": 14,
    "trials": 9,
    "demo_mql": 9,
    "trial_mql": 1,
-   "conv": 1.53,
+   "conv": 1.6,
    "regions": {
     "AMEA": {
-     "visitors": 731,
+     "visitors": 723,
      "demos": 6,
      "trials": 7
     },
     "North America": {
-     "visitors": 536,
+     "visitors": 477,
      "demos": 5,
      "trials": 1
     },
@@ -661,7 +955,7 @@
      "trials": 5
     },
     "Direct (source not found)": {
-     "visitors": 543,
+     "visitors": 479,
      "demos": 5,
      "trials": 4
     },
@@ -676,7 +970,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 70,
+     "visitors": 69,
      "demos": 0,
      "trials": 0
     },
@@ -691,14 +985,164 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 409,
+      "demos": 4,
+      "trials": 4
+     },
+     "Direct (source not found)": {
+      "visitors": 230,
+      "demos": 2,
+      "trials": 3
+     },
+     "Social Media": {
+      "visitors": 54,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 16,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 38,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 183,
+      "demos": 1,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 186,
+      "demos": 2,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 17,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 48,
+      "demos": 2,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 108,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 54,
+      "demos": 1,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 7,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 31,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 11,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 800,
+     "visitors": 750,
      "demos": 7,
      "trials": 6
     },
     "SEP Pricing": {
-     "visitors": 143,
+     "visitors": 142,
      "demos": 0,
      "trials": 0
     },
@@ -708,17 +1152,17 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 16,
+     "visitors": 13,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 15,
+     "visitors": 14,
      "demos": 1,
      "trials": 0
     },
@@ -728,7 +1172,7 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 13,
+     "visitors": 11,
      "demos": 1,
      "trials": 0
     },
@@ -738,17 +1182,17 @@
      "trials": 0
     },
     "Salesloft Alt": {
-     "visitors": 6,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
     "Orum Alt": {
-     "visitors": 6,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 20,
+     "visitors": 18,
      "demos": 0,
      "trials": 0
     },
@@ -758,12 +1202,12 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 0,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 7,
+     "visitors": 6,
      "demos": 0,
      "trials": 0
     },
@@ -778,7 +1222,7 @@
      "trials": 0
     },
     "Sales Dialer": {
-     "visitors": 16,
+     "visitors": 15,
      "demos": 0,
      "trials": 1
     },
@@ -805,18 +1249,36 @@
    },
    "engagement": {
     "site": {
-     "avg": 46.6,
-     "users": 1397,
-     "visits": 3971,
+     "avg": 43.2,
+     "users": 1387,
+     "visits": 3723,
      "median": 3.0,
-     "over10": 32
+     "over10": 31
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 31.7,
-      "visits": 33,
-      "median": 6.0,
-      "over10": 33
+     "AI Call Coaching": {
+      "avg": 42.2,
+      "visits": 12,
+      "median": 11.5,
+      "over10": 58
+     },
+     "Connect AI": {
+      "avg": 83.3,
+      "visits": 66,
+      "median": 4.0,
+      "over10": 26
+     },
+     "Dialer Pricing": {
+      "avg": 34.9,
+      "visits": 126,
+      "median": 2.0,
+      "over10": 31
+     },
+     "Reply Alt": {
+      "avg": 240.0,
+      "visits": 5,
+      "median": 52.0,
+      "over10": 60
      },
      "Apollo Alt": {
       "avg": 7.7,
@@ -824,23 +1286,17 @@
       "median": 1.0,
       "over10": 24
      },
-     "SEP Pricing": {
-      "avg": 38.0,
-      "visits": 333,
-      "median": 2.0,
-      "over10": 28
-     },
      "Homepage": {
-      "avg": 17.8,
-      "visits": 1798,
+      "avg": 17.0,
+      "visits": 1707,
       "median": 1.0,
-      "over10": 17
+      "over10": 16
      },
-     "India Dialer": {
-      "avg": 33.9,
-      "visits": 31,
-      "median": 5.0,
-      "over10": 32
+     "Orum Alt": {
+      "avg": 59.8,
+      "visits": 9,
+      "median": 7.0,
+      "over10": 44
      },
      "Nooks Alt": {
       "avg": 100.0,
@@ -849,16 +1305,22 @@
       "over10": 33
      },
      "Videos (Resources)": {
-      "avg": 40.0,
-      "visits": 25,
-      "median": 14.0,
-      "over10": 56
+      "avg": 24.2,
+      "visits": 18,
+      "median": 8.0,
+      "over10": 50
      },
-     "AI Call Coaching": {
-      "avg": 38.4,
-      "visits": 14,
-      "median": 11.5,
-      "over10": 57
+     "SEP Pricing": {
+      "avg": 37.8,
+      "visits": 329,
+      "median": 2.0,
+      "over10": 28
+     },
+     "Sales Dialer": {
+      "avg": 19.1,
+      "visits": 25,
+      "median": 1.0,
+      "over10": 28
      },
      "Cold Calling": {
       "avg": 134.7,
@@ -866,29 +1328,35 @@
       "median": 11.5,
       "over10": 50
      },
-     "Reply Alt": {
-      "avg": 240.0,
-      "visits": 5,
-      "median": 52.0,
-      "over10": 60
-     },
-     "Connect AI": {
-      "avg": 171.4,
-      "visits": 129,
-      "median": 5.0,
-      "over10": 36
-     },
-     "Dialer Pricing": {
-      "avg": 34.9,
-      "visits": 126,
-      "median": 2.0,
-      "over10": 31
-     },
      "Salesloft Alt": {
-      "avg": 122.5,
-      "visits": 16,
-      "median": 16.0,
+      "avg": 58.8,
+      "visits": 9,
+      "median": 17.0,
       "over10": 56
+     },
+     "US Dialer": {
+      "avg": 74.3,
+      "visits": 44,
+      "median": 8.5,
+      "over10": 48
+     },
+     "Outreach Alt": {
+      "avg": 38.6,
+      "visits": 32,
+      "median": 5.0,
+      "over10": 41
+     },
+     "India Dialer": {
+      "avg": 33.9,
+      "visits": 31,
+      "median": 5.0,
+      "over10": 32
+     },
+     "Parallel Dialer": {
+      "avg": 21.5,
+      "visits": 35,
+      "median": 2.0,
+      "over10": 17
      },
      "Power Dialer": {
       "avg": 28.5,
@@ -896,35 +1364,11 @@
       "median": 9.5,
       "over10": 25
      },
-     "Parallel Dialer": {
-      "avg": 26.1,
-      "visits": 45,
-      "median": 2.0,
-      "over10": 24
-     },
-     "Sales Dialer": {
-      "avg": 18.4,
-      "visits": 27,
-      "median": 3.0,
-      "over10": 26
-     },
-     "US Dialer": {
-      "avg": 71.9,
-      "visits": 46,
-      "median": 8.5,
-      "over10": 48
-     },
-     "Outreach Alt": {
-      "avg": 39.8,
-      "visits": 37,
-      "median": 3.0,
-      "over10": 38
-     },
-     "Orum Alt": {
-      "avg": 51.3,
-      "visits": 14,
-      "median": 6.5,
-      "over10": 36
+     "Global Dialer": {
+      "avg": 33.2,
+      "visits": 31,
+      "median": 6.0,
+      "over10": 32
      }
     }
    },
@@ -934,21 +1378,21 @@
    "partial": false
   },
   {
-   "visitors": 1714,
-   "visitors_raw": 3062,
+   "visitors": 1695,
+   "visitors_raw": 3051,
    "demos": 23,
    "trials": 16,
    "demo_mql": 13,
    "trial_mql": 0,
-   "conv": 2.28,
+   "conv": 2.3,
    "regions": {
     "AMEA": {
-     "visitors": 973,
+     "visitors": 969,
      "demos": 12,
      "trials": 8
     },
     "North America": {
-     "visitors": 498,
+     "visitors": 483,
      "demos": 7,
      "trials": 6
     },
@@ -970,7 +1414,7 @@
      "trials": 9
     },
     "Direct (source not found)": {
-     "visitors": 652,
+     "visitors": 634,
      "demos": 8,
      "trials": 5
     },
@@ -985,7 +1429,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 78,
+     "visitors": 77,
      "demos": 0,
      "trials": 1
     },
@@ -1000,9 +1444,159 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 497,
+      "demos": 8,
+      "trials": 5
+     },
+     "Direct (source not found)": {
+      "visitors": 370,
+      "demos": 4,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 68,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 5,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 46,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 183,
+      "demos": 3,
+      "trials": 3
+     },
+     "Direct (source not found)": {
+      "visitors": 202,
+      "demos": 2,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 5,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 37,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 18,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 48,
+      "demos": 2,
+      "trials": 1
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 93,
+      "demos": 1,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 40,
+      "demos": 2,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 18,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 10,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 43,
+      "demos": 1,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 24,
+      "demos": 0,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 920,
+     "visitors": 903,
      "demos": 5,
      "trials": 7
     },
@@ -1017,12 +1611,12 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 26,
+     "visitors": 24,
      "demos": 0,
      "trials": 0
     },
@@ -1037,7 +1631,7 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 16,
+     "visitors": 15,
      "demos": 0,
      "trials": 0
     },
@@ -1047,7 +1641,7 @@
      "trials": 0
     },
     "Salesloft Alt": {
-     "visitors": 15,
+     "visitors": 14,
      "demos": 1,
      "trials": 0
     },
@@ -1057,7 +1651,7 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 21,
+     "visitors": 20,
      "demos": 1,
      "trials": 2
     },
@@ -1067,7 +1661,7 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 7,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -1077,7 +1671,7 @@
      "trials": 0
     },
     "Power Dialer": {
-     "visitors": 8,
+     "visitors": 7,
      "demos": 0,
      "trials": 0
     },
@@ -1114,18 +1708,36 @@
    },
    "engagement": {
     "site": {
-     "avg": 59.1,
-     "users": 1649,
-     "visits": 4765,
+     "avg": 57.0,
+     "users": 1644,
+     "visits": 4615,
      "median": 3.0,
-     "over10": 34
+     "over10": 33
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 29.0,
-      "visits": 12,
+     "AI Call Coaching": {
+      "avg": 35.3,
+      "visits": 21,
       "median": 2.0,
-      "over10": 25
+      "over10": 24
+     },
+     "Connect AI": {
+      "avg": 43.4,
+      "visits": 45,
+      "median": 2.0,
+      "over10": 29
+     },
+     "Dialer Pricing": {
+      "avg": 43.0,
+      "visits": 207,
+      "median": 2.0,
+      "over10": 30
+     },
+     "Reply Alt": {
+      "avg": 60.0,
+      "visits": 6,
+      "median": 5.5,
+      "over10": 33
      },
      "Apollo Alt": {
       "avg": 52.6,
@@ -1133,29 +1745,23 @@
       "median": 7.0,
       "over10": 41
      },
-     "SEP Pricing": {
-      "avg": 46.2,
-      "visits": 440,
-      "median": 3.0,
-      "over10": 32
-     },
      "Homepage": {
-      "avg": 20.5,
-      "visits": 2128,
+      "avg": 20.0,
+      "visits": 2077,
       "median": 1.0,
       "over10": 17
-     },
-     "India Dialer": {
-      "avg": 25.9,
-      "visits": 19,
-      "median": 4.0,
-      "over10": 37
      },
      "SEP Landing": {
       "avg": 0.0,
       "visits": 1,
       "median": 0.0,
       "over10": 0
+     },
+     "Orum Alt": {
+      "avg": 34.7,
+      "visits": 12,
+      "median": 10.0,
+      "over10": 50
      },
      "Nooks Alt": {
       "avg": 16.8,
@@ -1164,57 +1770,15 @@
       "over10": 33
      },
      "Videos (Resources)": {
-      "avg": 105.1,
-      "visits": 98,
-      "median": 11.0,
-      "over10": 51
+      "avg": 64.4,
+      "visits": 73,
+      "median": 10.0,
+      "over10": 49
      },
-     "AI Call Coaching": {
-      "avg": 35.3,
-      "visits": 21,
-      "median": 2.0,
-      "over10": 24
-     },
-     "Cold Calling": {
-      "avg": 7.0,
-      "visits": 3,
-      "median": 5.0,
-      "over10": 33
-     },
-     "Reply Alt": {
-      "avg": 60.0,
-      "visits": 6,
-      "median": 5.5,
-      "over10": 33
-     },
-     "Connect AI": {
-      "avg": 91.1,
-      "visits": 64,
-      "median": 5.5,
-      "over10": 39
-     },
-     "Dialer Pricing": {
-      "avg": 43.0,
-      "visits": 207,
-      "median": 2.0,
-      "over10": 30
-     },
-     "Salesloft Alt": {
-      "avg": 51.3,
-      "visits": 40,
-      "median": 5.0,
-      "over10": 42
-     },
-     "Power Dialer": {
-      "avg": 56.5,
-      "visits": 17,
-      "median": 17.0,
-      "over10": 53
-     },
-     "Parallel Dialer": {
-      "avg": 39.8,
-      "visits": 60,
-      "median": 5.5,
+     "SEP Pricing": {
+      "avg": 46.2,
+      "visits": 440,
+      "median": 3.0,
       "over10": 32
      },
      "Sales Dialer": {
@@ -1223,6 +1787,18 @@
       "median": 6.0,
       "over10": 36
      },
+     "Cold Calling": {
+      "avg": 7.0,
+      "visits": 3,
+      "median": 5.0,
+      "over10": 33
+     },
+     "Salesloft Alt": {
+      "avg": 52.4,
+      "visits": 36,
+      "median": 5.0,
+      "over10": 42
+     },
      "US Dialer": {
       "avg": 34.4,
       "visits": 31,
@@ -1230,16 +1806,34 @@
       "over10": 42
      },
      "Outreach Alt": {
-      "avg": 66.5,
-      "visits": 47,
+      "avg": 70.9,
+      "visits": 45,
       "median": 3.0,
-      "over10": 34
+      "over10": 36
      },
-     "Orum Alt": {
-      "avg": 34.7,
-      "visits": 12,
-      "median": 10.0,
-      "over10": 50
+     "India Dialer": {
+      "avg": 25.9,
+      "visits": 19,
+      "median": 4.0,
+      "over10": 37
+     },
+     "Parallel Dialer": {
+      "avg": 34.1,
+      "visits": 42,
+      "median": 4.5,
+      "over10": 36
+     },
+     "Power Dialer": {
+      "avg": 64.1,
+      "visits": 15,
+      "median": 17.0,
+      "over10": 60
+     },
+     "Global Dialer": {
+      "avg": 13.2,
+      "visits": 7,
+      "median": 2.0,
+      "over10": 14
      }
     }
    },
@@ -1249,21 +1843,21 @@
    "partial": false
   },
   {
-   "visitors": 1357,
-   "visitors_raw": 3533,
+   "visitors": 1325,
+   "visitors_raw": 3500,
    "demos": 14,
    "trials": 17,
    "demo_mql": 5,
    "trial_mql": 2,
-   "conv": 2.28,
+   "conv": 2.34,
    "regions": {
     "AMEA": {
-     "visitors": 736,
+     "visitors": 718,
      "demos": 7,
      "trials": 10
     },
     "North America": {
-     "visitors": 402,
+     "visitors": 388,
      "demos": 4,
      "trials": 5
     },
@@ -1285,7 +1879,7 @@
      "trials": 13
     },
     "Direct (source not found)": {
-     "visitors": 495,
+     "visitors": 465,
      "demos": 5,
      "trials": 4
     },
@@ -1300,7 +1894,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 65,
+     "visitors": 63,
      "demos": 1,
      "trials": 0
     },
@@ -1315,14 +1909,164 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 399,
+      "demos": 3,
+      "trials": 8
+     },
+     "Direct (source not found)": {
+      "visitors": 242,
+      "demos": 3,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 11,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 36,
+      "demos": 1,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 172,
+      "demos": 3,
+      "trials": 4
+     },
+     "Direct (source not found)": {
+      "visitors": 154,
+      "demos": 1,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 17,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 13,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 32,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 88,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 52,
+      "demos": 1,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 11,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 37,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 17,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 717,
+     "visitors": 693,
      "demos": 9,
      "trials": 11
     },
     "SEP Pricing": {
-     "visitors": 145,
+     "visitors": 144,
      "demos": 0,
      "trials": 0
     },
@@ -1332,7 +2076,7 @@
      "trials": 1
     },
     "Connect AI": {
-     "visitors": 27,
+     "visitors": 25,
      "demos": 0,
      "trials": 0
     },
@@ -1342,7 +2086,7 @@
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 23,
+     "visitors": 22,
      "demos": 0,
      "trials": 0
     },
@@ -1352,27 +2096,27 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 17,
+     "visitors": 14,
      "demos": 0,
      "trials": 0
     },
     "Apollo Alt": {
-     "visitors": 9,
-     "demos": 0,
-     "trials": 0
-    },
-    "Salesloft Alt": {
-     "visitors": 15,
-     "demos": 0,
-     "trials": 0
-    },
-    "Orum Alt": {
      "visitors": 8,
      "demos": 0,
      "trials": 0
     },
+    "Salesloft Alt": {
+     "visitors": 12,
+     "demos": 0,
+     "trials": 0
+    },
+    "Orum Alt": {
+     "visitors": 7,
+     "demos": 0,
+     "trials": 0
+    },
     "Parallel Dialer": {
-     "visitors": 15,
+     "visitors": 14,
      "demos": 1,
      "trials": 1
     },
@@ -1382,22 +2126,22 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 9,
-     "demos": 0,
-     "trials": 0
-    },
-    "Power Dialer": {
      "visitors": 7,
      "demos": 0,
      "trials": 0
     },
+    "Power Dialer": {
+     "visitors": 6,
+     "demos": 0,
+     "trials": 0
+    },
     "India Dialer": {
-     "visitors": 19,
+     "visitors": 18,
      "demos": 0,
      "trials": 0
     },
@@ -1417,7 +2161,7 @@
      "trials": 0
     },
     "Reply Alt": {
-     "visitors": 5,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
@@ -1429,96 +2173,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 49.6,
-     "users": 1302,
-     "visits": 3717,
+     "avg": 44.7,
+     "users": 1277,
+     "visits": 3352,
      "median": 3.0,
-     "over10": 33
+     "over10": 32
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 48.3,
-      "visits": 22,
-      "median": 3.0,
-      "over10": 27
-     },
-     "Cold Calling": {
-      "avg": 4.7,
-      "visits": 4,
-      "median": 1.5,
-      "over10": 25
-     },
-     "Apollo Alt": {
-      "avg": 19.2,
-      "visits": 17,
-      "median": 2.0,
-      "over10": 18
-     },
-     "Reply Alt": {
-      "avg": 0.8,
-      "visits": 5,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Connect AI": {
-      "avg": 48.3,
-      "visits": 85,
-      "median": 7.0,
-      "over10": 34
-     },
-     "SEP Pricing": {
-      "avg": 34.2,
-      "visits": 311,
-      "median": 3.0,
-      "over10": 32
-     },
-     "Orum Alt": {
-      "avg": 7.1,
-      "visits": 9,
-      "median": 4.0,
-      "over10": 11
-     },
-     "Homepage": {
-      "avg": 32.1,
-      "visits": 1973,
-      "median": 2.0,
-      "over10": 24
-     },
-     "Dialer Pricing": {
-      "avg": 29.8,
-      "visits": 122,
-      "median": 2.0,
-      "over10": 30
-     },
-     "India Dialer": {
-      "avg": 31.1,
-      "visits": 44,
-      "median": 3.5,
-      "over10": 30
-     },
-     "Salesloft Alt": {
-      "avg": 30.4,
-      "visits": 32,
-      "median": 2.0,
-      "over10": 34
-     },
-     "Power Dialer": {
-      "avg": 25.9,
-      "visits": 15,
-      "median": 1.0,
-      "over10": 20
-     },
-     "Parallel Dialer": {
-      "avg": 65.7,
-      "visits": 42,
-      "median": 8.0,
-      "over10": 43
-     },
-     "US Dialer": {
-      "avg": 70.8,
-      "visits": 60,
-      "median": 3.5,
-      "over10": 32
+     "AI Call Coaching": {
+      "avg": 86.2,
+      "visits": 16,
+      "median": 10.5,
+      "over10": 50
      },
      "Nooks Alt": {
       "avg": 51.2,
@@ -1526,23 +2192,101 @@
       "median": 31.0,
       "over10": 57
      },
-     "Outreach Alt": {
-      "avg": 48.6,
-      "visits": 29,
-      "median": 8.0,
-      "over10": 38
-     },
      "Videos (Resources)": {
       "avg": 15.5,
       "visits": 30,
       "median": 1.0,
       "over10": 30
      },
-     "AI Call Coaching": {
-      "avg": 79.0,
-      "visits": 29,
-      "median": 7.0,
+     "Connect AI": {
+      "avg": 49.1,
+      "visits": 76,
+      "median": 6.5,
+      "over10": 33
+     },
+     "Dialer Pricing": {
+      "avg": 29.8,
+      "visits": 122,
+      "median": 2.0,
+      "over10": 30
+     },
+     "SEP Pricing": {
+      "avg": 34.4,
+      "visits": 310,
+      "median": 3.0,
+      "over10": 32
+     },
+     "Cold Calling": {
+      "avg": 4.7,
+      "visits": 4,
+      "median": 1.5,
+      "over10": 25
+     },
+     "Reply Alt": {
+      "avg": 1.0,
+      "visits": 4,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Apollo Alt": {
+      "avg": 20.4,
+      "visits": 13,
+      "median": 2.0,
+      "over10": 23
+     },
+     "Homepage": {
+      "avg": 23.4,
+      "visits": 1655,
+      "median": 1.0,
+      "over10": 19
+     },
+     "Salesloft Alt": {
+      "avg": 34.2,
+      "visits": 26,
+      "median": 2.0,
+      "over10": 35
+     },
+     "US Dialer": {
+      "avg": 73.7,
+      "visits": 57,
+      "median": 4.0,
+      "over10": 33
+     },
+     "Outreach Alt": {
+      "avg": 58.2,
+      "visits": 23,
+      "median": 10.0,
       "over10": 48
+     },
+     "India Dialer": {
+      "avg": 32.4,
+      "visits": 42,
+      "median": 3.5,
+      "over10": 31
+     },
+     "Parallel Dialer": {
+      "avg": 70.1,
+      "visits": 40,
+      "median": 9.0,
+      "over10": 45
+     },
+     "Power Dialer": {
+      "avg": 30.0,
+      "visits": 14,
+      "median": 1.5,
+      "over10": 21
+     },
+     "Global Dialer": {
+      "avg": 54.1,
+      "visits": 20,
+      "median": 4.0,
+      "over10": 30
+     },
+     "Orum Alt": {
+      "avg": 7.7,
+      "visits": 7,
+      "median": 6.0,
+      "over10": 14
      }
     }
    },
@@ -1552,21 +2296,21 @@
    "partial": false
   },
   {
-   "visitors": 1398,
-   "visitors_raw": 3672,
+   "visitors": 1387,
+   "visitors_raw": 3639,
    "demos": 13,
    "trials": 27,
    "demo_mql": 6,
    "trial_mql": 7,
-   "conv": 2.86,
+   "conv": 2.88,
    "regions": {
     "AMEA": {
-     "visitors": 769,
+     "visitors": 760,
      "demos": 4,
      "trials": 16
     },
     "North America": {
-     "visitors": 406,
+     "visitors": 404,
      "demos": 7,
      "trials": 7
     },
@@ -1588,7 +2332,7 @@
      "trials": 14
     },
     "Direct (source not found)": {
-     "visitors": 442,
+     "visitors": 433,
      "demos": 0,
      "trials": 10
     },
@@ -1603,7 +2347,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 65,
+     "visitors": 63,
      "demos": 0,
      "trials": 1
     },
@@ -1618,14 +2362,164 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 448,
+      "demos": 4,
+      "trials": 11
+     },
+     "Direct (source not found)": {
+      "visitors": 231,
+      "demos": 0,
+      "trials": 5
+     },
+     "Social Media": {
+      "visitors": 54,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 17,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 31,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 158,
+      "demos": 4,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 135,
+      "demos": 0,
+      "trials": 3
+     },
+     "Social Media": {
+      "visitors": 7,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 14,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 49,
+      "demos": 3,
+      "trials": 2
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 96,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 15,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 15,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 28,
+      "demos": 0,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 20,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 793,
+     "visitors": 786,
      "demos": 4,
      "trials": 18
     },
     "SEP Pricing": {
-     "visitors": 137,
+     "visitors": 133,
      "demos": 2,
      "trials": 0
     },
@@ -1635,17 +2529,17 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 63,
+     "visitors": 62,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 24,
+     "visitors": 20,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 42,
+     "visitors": 39,
      "demos": 0,
      "trials": 0
     },
@@ -1660,7 +2554,7 @@
      "trials": 0
     },
     "Apollo Alt": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -1670,12 +2564,12 @@
      "trials": 0
     },
     "Orum Alt": {
-     "visitors": 5,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 17,
+     "visitors": 14,
      "demos": 0,
      "trials": 0
     },
@@ -1685,17 +2579,17 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 10,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 11,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
     "Power Dialer": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 0,
      "trials": 0
     },
@@ -1720,7 +2614,7 @@
      "trials": 0
     },
     "Reply Alt": {
-     "visitors": 4,
+     "visitors": 3,
      "demos": 1,
      "trials": 0
     },
@@ -1732,17 +2626,47 @@
    },
    "engagement": {
     "site": {
-     "avg": 49.0,
-     "users": 1362,
-     "visits": 3859,
+     "avg": 47.0,
+     "users": 1351,
+     "visits": 3691,
      "median": 3.0,
-     "over10": 32
+     "over10": 31
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 39.9,
-      "visits": 21,
-      "median": 5.0,
+     "AI Call Coaching": {
+      "avg": 8.6,
+      "visits": 15,
+      "median": 2.0,
+      "over10": 20
+     },
+     "Nooks Alt": {
+      "avg": 50.5,
+      "visits": 7,
+      "median": 18.0,
+      "over10": 71
+     },
+     "Videos (Resources)": {
+      "avg": 37.1,
+      "visits": 54,
+      "median": 6.5,
+      "over10": 44
+     },
+     "Connect AI": {
+      "avg": 33.8,
+      "visits": 123,
+      "median": 4.0,
+      "over10": 39
+     },
+     "Dialer Pricing": {
+      "avg": 43.4,
+      "visits": 147,
+      "median": 3.0,
+      "over10": 33
+     },
+     "SEP Pricing": {
+      "avg": 49.8,
+      "visits": 305,
+      "median": 3.0,
       "over10": 33
      },
      "Cold Calling": {
@@ -1751,59 +2675,23 @@
       "median": 0.0,
       "over10": 0
      },
-     "Apollo Alt": {
-      "avg": 19.8,
-      "visits": 24,
-      "median": 1.5,
-      "over10": 25
-     },
      "Reply Alt": {
-      "avg": 24.0,
-      "visits": 6,
-      "median": 7.0,
-      "over10": 33
+      "avg": 36.0,
+      "visits": 5,
+      "median": 9.0,
+      "over10": 40
      },
-     "Connect AI": {
-      "avg": 34.2,
-      "visits": 125,
-      "median": 4.0,
-      "over10": 39
-     },
-     "SEP Pricing": {
-      "avg": 49.3,
-      "visits": 321,
-      "median": 3.0,
-      "over10": 33
-     },
-     "Orum Alt": {
-      "avg": 28.6,
+     "Apollo Alt": {
+      "avg": 11.9,
       "visits": 17,
-      "median": 5.0,
-      "over10": 29
+      "median": 0.0,
+      "over10": 18
      },
      "Homepage": {
-      "avg": 17.8,
-      "visits": 1756,
+      "avg": 17.9,
+      "visits": 1736,
       "median": 1.0,
       "over10": 17
-     },
-     "Dialer Pricing": {
-      "avg": 43.4,
-      "visits": 147,
-      "median": 3.0,
-      "over10": 33
-     },
-     "India Dialer": {
-      "avg": 19.2,
-      "visits": 24,
-      "median": 5.0,
-      "over10": 33
-     },
-     "Power Dialer": {
-      "avg": 26.2,
-      "visits": 20,
-      "median": 11.0,
-      "over10": 55
      },
      "Salesloft Alt": {
       "avg": 1.2,
@@ -1811,23 +2699,11 @@
       "median": 0.5,
       "over10": 0
      },
-     "Parallel Dialer": {
-      "avg": 10.4,
-      "visits": 32,
-      "median": 2.0,
-      "over10": 19
-     },
      "US Dialer": {
-      "avg": 44.9,
-      "visits": 106,
-      "median": 4.0,
-      "over10": 32
-     },
-     "Nooks Alt": {
-      "avg": 50.5,
-      "visits": 7,
-      "median": 18.0,
-      "over10": 71
+      "avg": 39.7,
+      "visits": 84,
+      "median": 3.5,
+      "over10": 30
      },
      "Outreach Alt": {
       "avg": 35.7,
@@ -1835,17 +2711,35 @@
       "median": 5.0,
       "over10": 37
      },
-     "Videos (Resources)": {
-      "avg": 38.0,
-      "visits": 65,
-      "median": 7.0,
-      "over10": 42
+     "India Dialer": {
+      "avg": 19.2,
+      "visits": 24,
+      "median": 5.0,
+      "over10": 33
      },
-     "AI Call Coaching": {
-      "avg": 13.5,
-      "visits": 25,
+     "Parallel Dialer": {
+      "avg": 9.4,
+      "visits": 23,
       "median": 2.0,
-      "over10": 28
+      "over10": 17
+     },
+     "Power Dialer": {
+      "avg": 23.5,
+      "visits": 18,
+      "median": 10.5,
+      "over10": 50
+     },
+     "Global Dialer": {
+      "avg": 44.5,
+      "visits": 19,
+      "median": 3.0,
+      "over10": 26
+     },
+     "Orum Alt": {
+      "avg": 25.2,
+      "visits": 10,
+      "median": 5.5,
+      "over10": 40
      }
     }
    },
@@ -1855,21 +2749,21 @@
    "partial": false
   },
   {
-   "visitors": 1381,
-   "visitors_raw": 5489,
+   "visitors": 1367,
+   "visitors_raw": 5460,
    "demos": 26,
    "trials": 14,
    "demo_mql": 11,
    "trial_mql": 3,
-   "conv": 2.9,
+   "conv": 2.93,
    "regions": {
     "AMEA": {
-     "visitors": 698,
+     "visitors": 689,
      "demos": 13,
      "trials": 7
     },
     "North America": {
-     "visitors": 487,
+     "visitors": 482,
      "demos": 10,
      "trials": 3
     },
@@ -1891,7 +2785,7 @@
      "trials": 3
     },
     "Direct (source not found)": {
-     "visitors": 501,
+     "visitors": 489,
      "demos": 7,
      "trials": 11
     },
@@ -1906,7 +2800,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 63,
+     "visitors": 61,
      "demos": 0,
      "trials": 0
     },
@@ -1921,34 +2815,184 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 394,
+      "demos": 8,
+      "trials": 2
+     },
+     "Direct (source not found)": {
+      "visitors": 235,
+      "demos": 5,
+      "trials": 5
+     },
+     "Social Media": {
+      "visitors": 47,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 9,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 21,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 171,
+      "demos": 4,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 205,
+      "demos": 2,
+      "trials": 3
+     },
+     "Social Media": {
+      "visitors": 5,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 39,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 29,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 39,
+      "demos": 4,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 108,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 42,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 6,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 10,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 23,
+      "demos": 1,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 15,
+      "demos": 0,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 778,
+     "visitors": 768,
      "demos": 13,
      "trials": 7
     },
     "SEP Pricing": {
-     "visitors": 170,
+     "visitors": 165,
      "demos": 2,
      "trials": 1
     },
     "Dialer Pricing": {
-     "visitors": 54,
+     "visitors": 53,
      "demos": 2,
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 41,
+     "visitors": 38,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 20,
+     "visitors": 15,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 19,
+     "visitors": 18,
      "demos": 0,
      "trials": 0
     },
@@ -1958,7 +3002,7 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 18,
+     "visitors": 16,
      "demos": 0,
      "trials": 0
     },
@@ -1978,7 +3022,7 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 21,
+     "visitors": 20,
      "demos": 0,
      "trials": 0
     },
@@ -1988,22 +3032,22 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 17,
+     "visitors": 16,
      "demos": 0,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
     "Power Dialer": {
-     "visitors": 7,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
     "India Dialer": {
-     "visitors": 6,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -2023,7 +3067,7 @@
      "trials": 0
     },
     "Reply Alt": {
-     "visitors": 3,
+     "visitors": 2,
      "demos": 0,
      "trials": 0
     },
@@ -2035,18 +3079,36 @@
    },
    "engagement": {
     "site": {
-     "avg": 51.8,
-     "users": 1334,
-     "visits": 3949,
+     "avg": 46.0,
+     "users": 1322,
+     "visits": 3621,
      "median": 3.0,
-     "over10": 32
+     "over10": 30
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 36.3,
-      "visits": 36,
-      "median": 4.5,
-      "over10": 42
+     "AI Call Coaching": {
+      "avg": 65.6,
+      "visits": 19,
+      "median": 6.0,
+      "over10": 32
+     },
+     "Connect AI": {
+      "avg": 47.1,
+      "visits": 78,
+      "median": 4.0,
+      "over10": 27
+     },
+     "Dialer Pricing": {
+      "avg": 50.5,
+      "visits": 149,
+      "median": 2.0,
+      "over10": 28
+     },
+     "Reply Alt": {
+      "avg": 24.0,
+      "visits": 2,
+      "median": 24.0,
+      "over10": 50
      },
      "Apollo Alt": {
       "avg": 13.7,
@@ -2054,29 +3116,23 @@
       "median": 1.0,
       "over10": 21
      },
-     "SEP Pricing": {
-      "avg": 58.2,
-      "visits": 500,
-      "median": 3.0,
-      "over10": 33
-     },
      "Homepage": {
-      "avg": 21.8,
-      "visits": 1851,
+      "avg": 21.4,
+      "visits": 1785,
       "median": 1.0,
       "over10": 17
-     },
-     "India Dialer": {
-      "avg": 125.2,
-      "visits": 46,
-      "median": 6.5,
-      "over10": 39
      },
      "SEP Landing": {
       "avg": 0.0,
       "visits": 1,
       "median": 0.0,
       "over10": 0
+     },
+     "Orum Alt": {
+      "avg": 43.3,
+      "visits": 11,
+      "median": 13.0,
+      "over10": 55
      },
      "Nooks Alt": {
       "avg": 32.3,
@@ -2085,16 +3141,16 @@
       "over10": 38
      },
      "Videos (Resources)": {
-      "avg": 65.4,
-      "visits": 100,
-      "median": 4.0,
-      "over10": 33
+      "avg": 14.3,
+      "visits": 27,
+      "median": 2.0,
+      "over10": 26
      },
-     "AI Call Coaching": {
-      "avg": 59.2,
-      "visits": 21,
-      "median": 6.0,
-      "over10": 33
+     "SEP Pricing": {
+      "avg": 51.3,
+      "visits": 444,
+      "median": 3.0,
+      "over10": 32
      },
      "Cold Calling": {
       "avg": 5.2,
@@ -2102,59 +3158,47 @@
       "median": 3.0,
       "over10": 14
      },
-     "Reply Alt": {
-      "avg": 35.0,
-      "visits": 6,
-      "median": 15.5,
-      "over10": 50
-     },
-     "Connect AI": {
-      "avg": 46.4,
-      "visits": 87,
-      "median": 4.0,
-      "over10": 28
-     },
-     "Dialer Pricing": {
-      "avg": 50.6,
-      "visits": 151,
-      "median": 2.0,
-      "over10": 28
-     },
      "Salesloft Alt": {
       "avg": 29.3,
       "visits": 14,
       "median": 2.0,
       "over10": 29
      },
-     "Power Dialer": {
-      "avg": 58.0,
-      "visits": 16,
-      "median": 15.0,
-      "over10": 56
-     },
-     "Parallel Dialer": {
-      "avg": 18.3,
-      "visits": 42,
-      "median": 2.0,
-      "over10": 21
-     },
      "US Dialer": {
-      "avg": 22.1,
-      "visits": 48,
-      "median": 2.0,
-      "over10": 17
+      "avg": 18.4,
+      "visits": 46,
+      "median": 1.0,
+      "over10": 15
      },
      "Outreach Alt": {
-      "avg": 39.0,
-      "visits": 28,
-      "median": 9.0,
-      "over10": 50
+      "avg": 39.5,
+      "visits": 25,
+      "median": 11.0,
+      "over10": 52
      },
-     "Orum Alt": {
-      "avg": 43.3,
-      "visits": 11,
-      "median": 13.0,
-      "over10": 55
+     "India Dialer": {
+      "avg": 142.4,
+      "visits": 41,
+      "median": 7.0,
+      "over10": 41
+     },
+     "Parallel Dialer": {
+      "avg": 18.7,
+      "visits": 41,
+      "median": 2.0,
+      "over10": 22
+     },
+     "Power Dialer": {
+      "avg": 69.6,
+      "visits": 10,
+      "median": 17.5,
+      "over10": 70
+     },
+     "Global Dialer": {
+      "avg": 20.6,
+      "visits": 29,
+      "median": 4.0,
+      "over10": 38
      }
     }
    },
@@ -2164,21 +3208,21 @@
    "partial": false
   },
   {
-   "visitors": 1612,
-   "visitors_raw": 4351,
+   "visitors": 1592,
+   "visitors_raw": 4321,
    "demos": 25,
    "trials": 18,
    "demo_mql": 7,
    "trial_mql": 0,
-   "conv": 2.67,
+   "conv": 2.7,
    "regions": {
     "AMEA": {
-     "visitors": 785,
+     "visitors": 772,
      "demos": 12,
      "trials": 11
     },
     "North America": {
-     "visitors": 616,
+     "visitors": 609,
      "demos": 9,
      "trials": 3
     },
@@ -2200,7 +3244,7 @@
      "trials": 7
     },
     "Direct (source not found)": {
-     "visitors": 682,
+     "visitors": 663,
      "demos": 9,
      "trials": 9
     },
@@ -2215,7 +3259,7 @@
      "trials": 0
     },
     "Referral": {
-     "visitors": 90,
+     "visitors": 89,
      "demos": 0,
      "trials": 1
     },
@@ -2230,34 +3274,184 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 402,
+      "demos": 9,
+      "trials": 5
+     },
+     "Direct (source not found)": {
+      "visitors": 330,
+      "demos": 3,
+      "trials": 5
+     },
+     "Social Media": {
+      "visitors": 30,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 25,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 231,
+      "demos": 4,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 266,
+      "demos": 5,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 5,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 24,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 53,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 40,
+      "demos": 0,
+      "trials": 1
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 104,
+      "demos": 3,
+      "trials": 2
+     },
+     "Direct (source not found)": {
+      "visitors": 56,
+      "demos": 1,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 10,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 7,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 21,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 29,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 871,
+     "visitors": 858,
      "demos": 6,
      "trials": 10
     },
     "SEP Pricing": {
-     "visitors": 199,
+     "visitors": 196,
      "demos": 6,
      "trials": 1
     },
     "Dialer Pricing": {
-     "visitors": 78,
+     "visitors": 77,
      "demos": 4,
      "trials": 1
     },
     "Connect AI": {
-     "visitors": 23,
+     "visitors": 22,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 19,
+     "visitors": 18,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 22,
+     "visitors": 21,
      "demos": 0,
      "trials": 0
     },
@@ -2297,12 +3491,12 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 6,
+     "visitors": 5,
      "demos": 1,
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 0,
      "trials": 0
     },
@@ -2344,96 +3538,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 40.9,
-     "users": 1570,
-     "visits": 4023,
+     "avg": 38.4,
+     "users": 1555,
+     "visits": 3864,
      "median": 3.0,
      "over10": 31
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 56.5,
-      "visits": 13,
-      "median": 11.0,
-      "over10": 54
-     },
-     "Cold Calling": {
-      "avg": 28.0,
-      "visits": 9,
-      "median": 9.0,
-      "over10": 44
-     },
-     "Apollo Alt": {
-      "avg": 55.2,
-      "visits": 40,
-      "median": 0.0,
-      "over10": 18
-     },
-     "Reply Alt": {
-      "avg": 52.3,
-      "visits": 5,
-      "median": 48.0,
-      "over10": 60
-     },
-     "Connect AI": {
-      "avg": 38.6,
-      "visits": 46,
-      "median": 1.5,
-      "over10": 26
-     },
-     "SEP Pricing": {
-      "avg": 47.0,
-      "visits": 490,
-      "median": 4.0,
-      "over10": 33
-     },
-     "Orum Alt": {
-      "avg": 59.0,
-      "visits": 5,
-      "median": 5.0,
-      "over10": 20
-     },
-     "Homepage": {
-      "avg": 17.6,
-      "visits": 1932,
-      "median": 1.0,
-      "over10": 18
-     },
-     "Dialer Pricing": {
-      "avg": 33.0,
-      "visits": 192,
-      "median": 3.0,
-      "over10": 30
-     },
-     "India Dialer": {
-      "avg": 56.0,
-      "visits": 29,
-      "median": 7.0,
-      "over10": 38
-     },
-     "Salesloft Alt": {
-      "avg": 41.8,
-      "visits": 7,
-      "median": 4.0,
-      "over10": 29
-     },
-     "Power Dialer": {
-      "avg": 12.8,
-      "visits": 11,
-      "median": 1.0,
-      "over10": 27
-     },
-     "Parallel Dialer": {
-      "avg": 31.2,
-      "visits": 19,
-      "median": 4.0,
-      "over10": 42
-     },
-     "US Dialer": {
-      "avg": 8.8,
-      "visits": 31,
-      "median": 3.0,
-      "over10": 23
+     "AI Call Coaching": {
+      "avg": 6.4,
+      "visits": 14,
+      "median": 3.5,
+      "over10": 7
      },
      "Nooks Alt": {
       "avg": 53.0,
@@ -2441,23 +3557,101 @@
       "median": 18.0,
       "over10": 60
      },
+     "Videos (Resources)": {
+      "avg": 97.8,
+      "visits": 69,
+      "median": 12.0,
+      "over10": 52
+     },
+     "Connect AI": {
+      "avg": 40.4,
+      "visits": 45,
+      "median": 2.0,
+      "over10": 27
+     },
+     "Dialer Pricing": {
+      "avg": 33.4,
+      "visits": 190,
+      "median": 3.0,
+      "over10": 31
+     },
+     "SEP Pricing": {
+      "avg": 41.3,
+      "visits": 454,
+      "median": 3.0,
+      "over10": 32
+     },
+     "Cold Calling": {
+      "avg": 28.0,
+      "visits": 9,
+      "median": 9.0,
+      "over10": 44
+     },
+     "Reply Alt": {
+      "avg": 52.3,
+      "visits": 5,
+      "median": 48.0,
+      "over10": 60
+     },
+     "Apollo Alt": {
+      "avg": 55.2,
+      "visits": 40,
+      "median": 0.0,
+      "over10": 18
+     },
+     "Homepage": {
+      "avg": 17.6,
+      "visits": 1898,
+      "median": 1.0,
+      "over10": 18
+     },
+     "Salesloft Alt": {
+      "avg": 41.8,
+      "visits": 7,
+      "median": 4.0,
+      "over10": 29
+     },
+     "US Dialer": {
+      "avg": 6.3,
+      "visits": 28,
+      "median": 3.0,
+      "over10": 18
+     },
      "Outreach Alt": {
       "avg": 35.2,
       "visits": 10,
       "median": 6.5,
       "over10": 40
      },
-     "Videos (Resources)": {
-      "avg": 98.6,
-      "visits": 74,
-      "median": 12.5,
-      "over10": 53
+     "India Dialer": {
+      "avg": 56.0,
+      "visits": 29,
+      "median": 7.0,
+      "over10": 38
      },
-     "AI Call Coaching": {
-      "avg": 10.2,
-      "visits": 16,
-      "median": 3.5,
-      "over10": 12
+     "Parallel Dialer": {
+      "avg": 31.2,
+      "visits": 19,
+      "median": 4.0,
+      "over10": 42
+     },
+     "Power Dialer": {
+      "avg": 12.8,
+      "visits": 11,
+      "median": 1.0,
+      "over10": 27
+     },
+     "Global Dialer": {
+      "avg": 66.6,
+      "visits": 12,
+      "median": 11.0,
+      "over10": 58
+     },
+     "Orum Alt": {
+      "avg": 59.0,
+      "visits": 5,
+      "median": 5.0,
+      "over10": 20
      }
     }
    },
@@ -2467,21 +3661,21 @@
    "partial": false
   },
   {
-   "visitors": 1665,
-   "visitors_raw": 3706,
+   "visitors": 1643,
+   "visitors_raw": 3668,
    "demos": 14,
    "trials": 20,
    "demo_mql": 7,
    "trial_mql": 1,
-   "conv": 2.04,
+   "conv": 2.07,
    "regions": {
     "AMEA": {
-     "visitors": 911,
+     "visitors": 898,
      "demos": 9,
      "trials": 9
     },
     "North America": {
-     "visitors": 532,
+     "visitors": 521,
      "demos": 3,
      "trials": 6
     },
@@ -2503,7 +3697,7 @@
      "trials": 9
     },
     "Direct (source not found)": {
-     "visitors": 657,
+     "visitors": 635,
      "demos": 6,
      "trials": 10
     },
@@ -2533,14 +3727,164 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 476,
+      "demos": 5,
+      "trials": 4
+     },
+     "Direct (source not found)": {
+      "visitors": 346,
+      "demos": 3,
+      "trials": 4
+     },
+     "Social Media": {
+      "visitors": 46,
+      "demos": 1,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 23,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 30,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 1
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 220,
+      "demos": 1,
+      "trials": 2
+     },
+     "Direct (source not found)": {
+      "visitors": 209,
+      "demos": 2,
+      "trials": 4
+     },
+     "Social Media": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 32,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 18,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 41,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 80,
+      "demos": 1,
+      "trials": 3
+     },
+     "Direct (source not found)": {
+      "visitors": 59,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 5,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 9,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 46,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 39,
+      "demos": 1,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 901,
+     "visitors": 891,
      "demos": 7,
      "trials": 10
     },
     "SEP Pricing": {
-     "visitors": 192,
+     "visitors": 190,
      "demos": 2,
      "trials": 2
     },
@@ -2550,7 +3894,7 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 37,
+     "visitors": 35,
      "demos": 0,
      "trials": 0
     },
@@ -2560,7 +3904,7 @@
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 10,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
@@ -2570,7 +3914,7 @@
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -2580,7 +3924,7 @@
      "trials": 0
     },
     "Salesloft Alt": {
-     "visitors": 6,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -2590,12 +3934,12 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 19,
+     "visitors": 17,
      "demos": 0,
      "trials": 0
     },
     "Nooks Alt": {
-     "visitors": 5,
+     "visitors": 4,
      "demos": 0,
      "trials": 1
     },
@@ -2610,7 +3954,7 @@
      "trials": 0
     },
     "Power Dialer": {
-     "visitors": 7,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -2647,84 +3991,24 @@
    },
    "engagement": {
     "site": {
-     "avg": 44.9,
-     "users": 1613,
-     "visits": 4451,
+     "avg": 43.2,
+     "users": 1591,
+     "visits": 4194,
      "median": 3.0,
-     "over10": 32
+     "over10": 31
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 24.7,
-      "visits": 4,
-      "median": 11.0,
-      "over10": 50
-     },
-     "Apollo Alt": {
-      "avg": 73.2,
-      "visits": 30,
-      "median": 6.0,
-      "over10": 43
-     },
-     "SEP Pricing": {
-      "avg": 36.3,
-      "visits": 415,
-      "median": 2.0,
-      "over10": 33
-     },
-     "Homepage": {
-      "avg": 22.0,
-      "visits": 2185,
-      "median": 2.0,
-      "over10": 20
-     },
-     "India Dialer": {
-      "avg": 40.8,
-      "visits": 46,
-      "median": 4.0,
-      "over10": 26
-     },
-     "SEP Landing": {
-      "avg": 0.0,
-      "visits": 2,
-      "median": 0.0,
-      "over10": 0
-     },
-     "Nooks Alt": {
-      "avg": 208.2,
-      "visits": 14,
-      "median": 19.0,
-      "over10": 57
-     },
-     "Videos (Resources)": {
-      "avg": 58.6,
-      "visits": 41,
-      "median": 9.0,
-      "over10": 46
-     },
      "AI Call Coaching": {
       "avg": 13.5,
       "visits": 2,
       "median": 13.5,
       "over10": 100
      },
-     "Cold Calling": {
-      "avg": 3.5,
-      "visits": 7,
-      "median": 2.0,
-      "over10": 0
-     },
-     "Reply Alt": {
-      "avg": 62.0,
-      "visits": 4,
-      "median": 13.5,
-      "over10": 75
-     },
      "Connect AI": {
-      "avg": 22.1,
-      "visits": 73,
+      "avg": 21.1,
+      "visits": 69,
       "median": 4.0,
-      "over10": 38
+      "over10": 36
      },
      "Dialer Pricing": {
       "avg": 101.6,
@@ -2732,23 +4016,53 @@
       "median": 3.0,
       "over10": 28
      },
-     "Salesloft Alt": {
-      "avg": 3.0,
-      "visits": 7,
-      "median": 0.0,
-      "over10": 14
+     "Reply Alt": {
+      "avg": 62.0,
+      "visits": 4,
+      "median": 13.5,
+      "over10": 75
      },
-     "Power Dialer": {
-      "avg": 40.7,
-      "visits": 18,
-      "median": 6.5,
-      "over10": 44
-     },
-     "Parallel Dialer": {
-      "avg": 61.6,
-      "visits": 42,
+     "Apollo Alt": {
+      "avg": 73.2,
+      "visits": 30,
       "median": 6.0,
-      "over10": 36
+      "over10": 43
+     },
+     "Homepage": {
+      "avg": 21.5,
+      "visits": 2116,
+      "median": 2.0,
+      "over10": 20
+     },
+     "SEP Landing": {
+      "avg": 0.0,
+      "visits": 2,
+      "median": 0.0,
+      "over10": 0
+     },
+     "Orum Alt": {
+      "avg": 16.2,
+      "visits": 6,
+      "median": 3.5,
+      "over10": 17
+     },
+     "Nooks Alt": {
+      "avg": 260.2,
+      "visits": 13,
+      "median": 20.0,
+      "over10": 62
+     },
+     "Videos (Resources)": {
+      "avg": 58.6,
+      "visits": 41,
+      "median": 9.0,
+      "over10": 46
+     },
+     "SEP Pricing": {
+      "avg": 34.5,
+      "visits": 394,
+      "median": 2.0,
+      "over10": 33
      },
      "Sales Dialer": {
       "avg": 29.0,
@@ -2756,23 +4070,53 @@
       "median": 14.5,
       "over10": 50
      },
-     "US Dialer": {
-      "avg": 25.7,
-      "visits": 17,
+     "Cold Calling": {
+      "avg": 3.5,
+      "visits": 7,
       "median": 2.0,
-      "over10": 29
+      "over10": 0
+     },
+     "Salesloft Alt": {
+      "avg": 3.6,
+      "visits": 6,
+      "median": 1.5,
+      "over10": 17
+     },
+     "US Dialer": {
+      "avg": 28.6,
+      "visits": 16,
+      "median": 3.0,
+      "over10": 31
      },
      "Outreach Alt": {
-      "avg": 28.2,
-      "visits": 15,
+      "avg": 30.1,
+      "visits": 13,
       "median": 8.0,
-      "over10": 47
+      "over10": 46
      },
-     "Orum Alt": {
-      "avg": 16.2,
-      "visits": 6,
-      "median": 3.5,
-      "over10": 17
+     "India Dialer": {
+      "avg": 40.8,
+      "visits": 46,
+      "median": 4.0,
+      "over10": 26
+     },
+     "Parallel Dialer": {
+      "avg": 68.2,
+      "visits": 39,
+      "median": 6.0,
+      "over10": 38
+     },
+     "Power Dialer": {
+      "avg": 53.4,
+      "visits": 14,
+      "median": 12.5,
+      "over10": 57
+     },
+     "Global Dialer": {
+      "avg": 24.7,
+      "visits": 4,
+      "median": 11.0,
+      "over10": 50
      }
     }
    },
@@ -2782,21 +4126,21 @@
    "partial": false
   },
   {
-   "visitors": 1428,
-   "visitors_raw": 3541,
+   "visitors": 1409,
+   "visitors_raw": 3507,
    "demos": 15,
    "trials": 27,
    "demo_mql": 6,
    "trial_mql": 4,
-   "conv": 2.94,
+   "conv": 2.98,
    "regions": {
     "AMEA": {
-     "visitors": 769,
+     "visitors": 760,
      "demos": 9,
      "trials": 20
     },
     "North America": {
-     "visitors": 428,
+     "visitors": 418,
      "demos": 4,
      "trials": 3
     },
@@ -2818,7 +4162,7 @@
      "trials": 12
     },
     "Direct (source not found)": {
-     "visitors": 571,
+     "visitors": 552,
      "demos": 5,
      "trials": 14
     },
@@ -2848,29 +4192,179 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 392,
+      "demos": 5,
+      "trials": 9
+     },
+     "Direct (source not found)": {
+      "visitors": 271,
+      "demos": 4,
+      "trials": 10
+     },
+     "Social Media": {
+      "visitors": 34,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 14,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 30,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 45,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 173,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 188,
+      "demos": 1,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 23,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 29,
+      "demos": 1,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 79,
+      "demos": 2,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 73,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 14,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 11,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 24,
+      "demos": 0,
+      "trials": 2
+     },
+     "Direct (source not found)": {
+      "visitors": 18,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 18,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 770,
+     "visitors": 764,
      "demos": 7,
      "trials": 12
     },
     "SEP Pricing": {
-     "visitors": 188,
+     "visitors": 181,
      "demos": 3,
      "trials": 0
     },
     "Dialer Pricing": {
-     "visitors": 61,
+     "visitors": 55,
      "demos": 1,
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 39,
+     "visitors": 35,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 15,
+     "visitors": 14,
      "demos": 0,
      "trials": 0
     },
@@ -2900,12 +4394,12 @@
      "trials": 0
     },
     "Orum Alt": {
-     "visitors": 8,
+     "visitors": 6,
      "demos": 0,
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 12,
+     "visitors": 11,
      "demos": 1,
      "trials": 0
     },
@@ -2915,7 +4409,7 @@
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 6,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -2962,18 +4456,36 @@
    },
    "engagement": {
     "site": {
-     "avg": 42.0,
-     "users": 1389,
-     "visits": 3920,
+     "avg": 37.6,
+     "users": 1370,
+     "visits": 3709,
      "median": 2.0,
-     "over10": 28
+     "over10": 27
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 8.2,
+     "AI Call Coaching": {
+      "avg": 8.0,
+      "visits": 1,
+      "median": 8.0,
+      "over10": 0
+     },
+     "Connect AI": {
+      "avg": 20.7,
+      "visits": 73,
+      "median": 4.0,
+      "over10": 30
+     },
+     "Dialer Pricing": {
+      "avg": 34.6,
+      "visits": 121,
+      "median": 4.0,
+      "over10": 33
+     },
+     "Reply Alt": {
+      "avg": 11.1,
       "visits": 10,
-      "median": 1.5,
-      "over10": 20
+      "median": 0.5,
+      "over10": 30
      },
      "Apollo Alt": {
       "avg": 28.5,
@@ -2981,29 +4493,23 @@
       "median": 5.0,
       "over10": 35
      },
-     "SEP Pricing": {
-      "avg": 45.7,
-      "visits": 463,
-      "median": 3.0,
-      "over10": 34
-     },
      "Homepage": {
       "avg": 19.6,
-      "visits": 1958,
+      "visits": 1930,
       "median": 1.0,
       "over10": 16
-     },
-     "India Dialer": {
-      "avg": 20.7,
-      "visits": 21,
-      "median": 3.0,
-      "over10": 29
      },
      "SEP Landing": {
       "avg": 0.0,
       "visits": 1,
       "median": 0.0,
       "over10": 0
+     },
+     "Orum Alt": {
+      "avg": 14.2,
+      "visits": 12,
+      "median": 4.0,
+      "over10": 17
      },
      "Nooks Alt": {
       "avg": 50.1,
@@ -3012,16 +4518,16 @@
       "over10": 23
      },
      "Videos (Resources)": {
-      "avg": 22.6,
-      "visits": 28,
-      "median": 5.5,
-      "over10": 36
+      "avg": 11.6,
+      "visits": 24,
+      "median": 4.0,
+      "over10": 29
      },
-     "AI Call Coaching": {
-      "avg": 8.0,
-      "visits": 1,
-      "median": 8.0,
-      "over10": 0
+     "SEP Pricing": {
+      "avg": 32.0,
+      "visits": 376,
+      "median": 2.0,
+      "over10": 29
      },
      "Cold Calling": {
       "avg": 1.7,
@@ -3029,41 +4535,11 @@
       "median": 0.0,
       "over10": 0
      },
-     "Reply Alt": {
-      "avg": 11.1,
-      "visits": 10,
-      "median": 0.5,
-      "over10": 30
-     },
-     "Connect AI": {
-      "avg": 18.6,
-      "visits": 77,
-      "median": 3.0,
-      "over10": 29
-     },
-     "Dialer Pricing": {
-      "avg": 69.6,
-      "visits": 184,
-      "median": 4.0,
-      "over10": 36
-     },
      "Salesloft Alt": {
       "avg": 23.6,
       "visits": 10,
       "median": 2.5,
       "over10": 30
-     },
-     "Power Dialer": {
-      "avg": 8.7,
-      "visits": 3,
-      "median": 3.0,
-      "over10": 33
-     },
-     "Parallel Dialer": {
-      "avg": 58.3,
-      "visits": 37,
-      "median": 10.0,
-      "over10": 49
      },
      "US Dialer": {
       "avg": 23.3,
@@ -3077,11 +4553,29 @@
       "median": 2.0,
       "over10": 39
      },
-     "Orum Alt": {
-      "avg": 10.6,
-      "visits": 14,
+     "India Dialer": {
+      "avg": 20.7,
+      "visits": 21,
       "median": 3.0,
-      "over10": 14
+      "over10": 29
+     },
+     "Parallel Dialer": {
+      "avg": 26.2,
+      "visits": 20,
+      "median": 6.5,
+      "over10": 40
+     },
+     "Power Dialer": {
+      "avg": 8.7,
+      "visits": 3,
+      "median": 3.0,
+      "over10": 33
+     },
+     "Global Dialer": {
+      "avg": 9.6,
+      "visits": 9,
+      "median": 2.0,
+      "over10": 22
      }
     }
    },
@@ -3091,21 +4585,21 @@
    "partial": false
   },
   {
-   "visitors": 1274,
-   "visitors_raw": 5334,
+   "visitors": 1265,
+   "visitors_raw": 5309,
    "demos": 12,
    "trials": 16,
    "demo_mql": 5,
    "trial_mql": 4,
-   "conv": 2.2,
+   "conv": 2.21,
    "regions": {
     "AMEA": {
-     "visitors": 646,
+     "visitors": 642,
      "demos": 3,
      "trials": 10
     },
     "North America": {
-     "visitors": 411,
+     "visitors": 406,
      "demos": 4,
      "trials": 2
     },
@@ -3127,7 +4621,7 @@
      "trials": 2
     },
     "Direct (source not found)": {
-     "visitors": 495,
+     "visitors": 486,
      "demos": 9,
      "trials": 12
     },
@@ -3157,19 +4651,169 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 288,
+      "demos": 0,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 240,
+      "demos": 2,
+      "trials": 7
+     },
+     "Social Media": {
+      "visitors": 31,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 21,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 29,
+      "demos": 1,
+      "trials": 2
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 64,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 165,
+      "demos": 0,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 166,
+      "demos": 4,
+      "trials": 1
+     },
+     "Social Media": {
+      "visitors": 6,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 27,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 33,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 69,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 59,
+      "demos": 2,
+      "trials": 4
+     },
+     "Social Media": {
+      "visitors": 8,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 13,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 10,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 27,
+      "demos": 2,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 29,
+      "demos": 1,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 681,
+     "visitors": 676,
      "demos": 7,
      "trials": 10
     },
     "SEP Pricing": {
-     "visitors": 148,
+     "visitors": 146,
      "demos": 1,
      "trials": 0
     },
     "Dialer Pricing": {
-     "visitors": 43,
+     "visitors": 41,
      "demos": 1,
      "trials": 0
     },
@@ -3179,7 +4823,7 @@
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 16,
+     "visitors": 15,
      "demos": 0,
      "trials": 0
     },
@@ -3214,7 +4858,7 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 10,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
@@ -3229,7 +4873,7 @@
      "trials": 0
     },
     "AI Call Coaching": {
-     "visitors": 7,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
@@ -3271,96 +4915,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 38.8,
-     "users": 1229,
-     "visits": 3215,
+     "avg": 37.8,
+     "users": 1223,
+     "visits": 3129,
      "median": 3.0,
-     "over10": 30
+     "over10": 29
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 9.4,
-      "visits": 11,
-      "median": 2.0,
-      "over10": 18
-     },
-     "Cold Calling": {
-      "avg": 8.3,
-      "visits": 3,
-      "median": 10.0,
-      "over10": 0
-     },
-     "Apollo Alt": {
-      "avg": 17.4,
-      "visits": 17,
-      "median": 1.0,
-      "over10": 18
-     },
-     "Reply Alt": {
-      "avg": 23.8,
-      "visits": 12,
-      "median": 2.5,
-      "over10": 33
-     },
-     "Connect AI": {
-      "avg": 27.3,
-      "visits": 44,
-      "median": 5.0,
-      "over10": 36
-     },
-     "SEP Pricing": {
-      "avg": 36.2,
-      "visits": 309,
-      "median": 4.0,
-      "over10": 32
-     },
-     "Homepage": {
-      "avg": 17.6,
-      "visits": 1584,
-      "median": 1.0,
-      "over10": 16
-     },
-     "Dialer Pricing": {
-      "avg": 30.2,
-      "visits": 104,
-      "median": 3.0,
-      "over10": 36
-     },
-     "India Dialer": {
-      "avg": 21.5,
-      "visits": 18,
-      "median": 6.5,
-      "over10": 39
-     },
      "AI Call Coaching": {
-      "avg": 22.3,
-      "visits": 20,
+      "avg": 21.6,
+      "visits": 13,
       "median": 3.0,
-      "over10": 20
-     },
-     "Power Dialer": {
-      "avg": 15.3,
-      "visits": 4,
-      "median": 2.5,
-      "over10": 25
-     },
-     "Salesloft Alt": {
-      "avg": 2.5,
-      "visits": 8,
-      "median": 0.0,
-      "over10": 12
-     },
-     "Parallel Dialer": {
-      "avg": 33.0,
-      "visits": 23,
-      "median": 8.0,
-      "over10": 43
-     },
-     "US Dialer": {
-      "avg": 21.8,
-      "visits": 33,
-      "median": 2.0,
-      "over10": 27
+      "over10": 15
      },
      "Nooks Alt": {
       "avg": 9.7,
@@ -3368,17 +4934,95 @@
       "median": 3.0,
       "over10": 29
      },
+     "Videos (Resources)": {
+      "avg": 75.9,
+      "visits": 42,
+      "median": 12.0,
+      "over10": 50
+     },
+     "Connect AI": {
+      "avg": 27.3,
+      "visits": 44,
+      "median": 5.0,
+      "over10": 36
+     },
+     "Dialer Pricing": {
+      "avg": 28.4,
+      "visits": 93,
+      "median": 2.0,
+      "over10": 34
+     },
+     "SEP Pricing": {
+      "avg": 36.4,
+      "visits": 304,
+      "median": 4.0,
+      "over10": 32
+     },
+     "Cold Calling": {
+      "avg": 8.3,
+      "visits": 3,
+      "median": 10.0,
+      "over10": 0
+     },
+     "Reply Alt": {
+      "avg": 23.8,
+      "visits": 12,
+      "median": 2.5,
+      "over10": 33
+     },
+     "Apollo Alt": {
+      "avg": 17.4,
+      "visits": 17,
+      "median": 1.0,
+      "over10": 18
+     },
+     "Homepage": {
+      "avg": 17.5,
+      "visits": 1571,
+      "median": 1.0,
+      "over10": 16
+     },
+     "Salesloft Alt": {
+      "avg": 2.5,
+      "visits": 8,
+      "median": 0.0,
+      "over10": 12
+     },
+     "US Dialer": {
+      "avg": 21.8,
+      "visits": 33,
+      "median": 2.0,
+      "over10": 27
+     },
      "Outreach Alt": {
       "avg": 41.4,
       "visits": 22,
       "median": 2.0,
       "over10": 32
      },
-     "Videos (Resources)": {
-      "avg": 72.5,
-      "visits": 44,
-      "median": 12.0,
-      "over10": 50
+     "India Dialer": {
+      "avg": 21.5,
+      "visits": 18,
+      "median": 6.5,
+      "over10": 39
+     },
+     "Parallel Dialer": {
+      "avg": 36.1,
+      "visits": 22,
+      "median": 8.5,
+      "over10": 45
+     },
+     "Power Dialer": {
+      "avg": 15.3,
+      "visits": 4,
+      "median": 2.5,
+      "over10": 25
+     },
+     "Global Dialer": {
+      "avg": 9.4,
+      "visits": 11,
+      "median": 2.0,
+      "over10": 18
      },
      "Orum Alt": {
       "avg": 44.3,
@@ -3394,21 +5038,21 @@
    "partial": false
   },
   {
-   "visitors": 1559,
-   "visitors_raw": 6279,
+   "visitors": 1497,
+   "visitors_raw": 6199,
    "demos": 11,
    "trials": 16,
    "demo_mql": 7,
    "trial_mql": 2,
-   "conv": 1.73,
+   "conv": 1.8,
    "regions": {
     "AMEA": {
-     "visitors": 734,
+     "visitors": 722,
      "demos": 4,
      "trials": 11
     },
     "North America": {
-     "visitors": 562,
+     "visitors": 511,
      "demos": 5,
      "trials": 1
     },
@@ -3430,7 +5074,7 @@
      "trials": 4
     },
     "Direct (source not found)": {
-     "visitors": 656,
+     "visitors": 594,
      "demos": 1,
      "trials": 8
     },
@@ -3460,49 +5104,199 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 326,
+      "demos": 3,
+      "trials": 3
+     },
+     "Direct (source not found)": {
+      "visitors": 242,
+      "demos": 1,
+      "trials": 5
+     },
+     "Social Media": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 19,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 40,
+      "demos": 0,
+      "trials": 3
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 85,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 153,
+      "demos": 4,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 261,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 11,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 24,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 41,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 26,
+      "demos": 1,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 70,
+      "demos": 2,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 64,
+      "demos": 0,
+      "trials": 3
+     },
+     "Social Media": {
+      "visitors": 9,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 8,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 19,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 10,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 25,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 36,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 14,
+      "demos": 0,
+      "trials": 1
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 8,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 842,
+     "visitors": 825,
      "demos": 5,
      "trials": 6
     },
     "SEP Pricing": {
-     "visitors": 169,
+     "visitors": 163,
      "demos": 3,
      "trials": 2
     },
     "Dialer Pricing": {
-     "visitors": 56,
+     "visitors": 52,
      "demos": 1,
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 24,
+     "visitors": 23,
      "demos": 1,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 15,
+     "visitors": 13,
      "demos": 0,
      "trials": 0
     },
     "US Dialer": {
-     "visitors": 19,
+     "visitors": 17,
      "demos": 0,
      "trials": 0
     },
     "Cold Calling": {
-     "visitors": 3,
+     "visitors": 2,
      "demos": 0,
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 19,
+     "visitors": 17,
      "demos": 0,
      "trials": 0
     },
     "Apollo Alt": {
-     "visitors": 11,
+     "visitors": 9,
      "demos": 1,
      "trials": 0
     },
@@ -3517,17 +5311,17 @@
      "trials": 0
     },
     "Parallel Dialer": {
-     "visitors": 16,
+     "visitors": 14,
      "demos": 0,
      "trials": 0
     },
     "Nooks Alt": {
-     "visitors": 10,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
     "Global Dialer": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -3542,7 +5336,7 @@
      "trials": 0
     },
     "India Dialer": {
-     "visitors": 10,
+     "visitors": 9,
      "demos": 0,
      "trials": 0
     },
@@ -3552,17 +5346,17 @@
      "trials": 0
     },
     "Gong Integration": {
-     "visitors": 25,
+     "visitors": 12,
      "demos": 0,
      "trials": 0
     },
     "Dynamic Presence": {
-     "visitors": 43,
+     "visitors": 32,
      "demos": 0,
      "trials": 0
     },
     "Reply Alt": {
-     "visitors": 7,
+     "visitors": 6,
      "demos": 0,
      "trials": 0
     },
@@ -3574,60 +5368,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 49.9,
-     "users": 1502,
-     "visits": 4451,
-     "median": 4.0,
-     "over10": 34
+     "avg": 40.2,
+     "users": 1443,
+     "visits": 3871,
+     "median": 3.0,
+     "over10": 30
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 38.9,
-      "visits": 25,
-      "median": 12.0,
-      "over10": 52
-     },
-     "Apollo Alt": {
-      "avg": 16.1,
-      "visits": 19,
-      "median": 1.0,
-      "over10": 32
-     },
-     "SEP Pricing": {
-      "avg": 42.8,
-      "visits": 415,
-      "median": 3.0,
-      "over10": 32
-     },
-     "Homepage": {
-      "avg": 20.0,
-      "visits": 1984,
-      "median": 2.0,
-      "over10": 17
-     },
-     "India Dialer": {
-      "avg": 6.8,
-      "visits": 17,
-      "median": 0.0,
-      "over10": 12
-     },
-     "Nooks Alt": {
-      "avg": 40.3,
-      "visits": 18,
-      "median": 11.0,
-      "over10": 50
-     },
      "Gong Integration": {
-      "avg": 279.6,
-      "visits": 214,
-      "median": 13.5,
-      "over10": 56
-     },
-     "Videos (Resources)": {
-      "avg": 97.0,
-      "visits": 91,
-      "median": 5.0,
-      "over10": 41
+      "avg": 195.4,
+      "visits": 67,
+      "median": 9.0,
+      "over10": 43
      },
      "AI Call Coaching": {
       "avg": 11.8,
@@ -3636,34 +5388,70 @@
       "over10": 17
      },
      "Dynamic Presence": {
-      "avg": 85.8,
-      "visits": 161,
-      "median": 7.0,
-      "over10": 43
-     },
-     "Cold Calling": {
-      "avg": 6.7,
-      "visits": 4,
-      "median": 3.5,
-      "over10": 25
-     },
-     "Reply Alt": {
-      "avg": 12.4,
-      "visits": 10,
-      "median": 0.5,
-      "over10": 10
+      "avg": 19.2,
+      "visits": 58,
+      "median": 2.5,
+      "over10": 28
      },
      "Connect AI": {
-      "avg": 45.0,
-      "visits": 49,
-      "median": 9.0,
-      "over10": 43
+      "avg": 41.1,
+      "visits": 44,
+      "median": 9.5,
+      "over10": 45
      },
      "Dialer Pricing": {
-      "avg": 76.3,
-      "visits": 208,
+      "avg": 71.6,
+      "visits": 174,
       "median": 2.0,
-      "over10": 32
+      "over10": 31
+     },
+     "Reply Alt": {
+      "avg": 14.5,
+      "visits": 9,
+      "median": 1.0,
+      "over10": 11
+     },
+     "Apollo Alt": {
+      "avg": 20.1,
+      "visits": 17,
+      "median": 2.0,
+      "over10": 35
+     },
+     "Homepage": {
+      "avg": 17.7,
+      "visits": 1891,
+      "median": 1.0,
+      "over10": 16
+     },
+     "Orum Alt": {
+      "avg": 24.9,
+      "visits": 11,
+      "median": 3.0,
+      "over10": 36
+     },
+     "Nooks Alt": {
+      "avg": 44.3,
+      "visits": 16,
+      "median": 13.0,
+      "over10": 56
+     },
+     "Videos (Resources)": {
+      "avg": 59.1,
+      "visits": 60,
+      "median": 3.5,
+      "over10": 33
+     },
+     "SEP Pricing": {
+      "avg": 39.1,
+      "visits": 358,
+      "median": 3.0,
+      "over10": 30
+     },
+     "Cold Calling": {
+      "avg": 10.0,
+      "visits": 3,
+      "median": 6.0,
+      "over10": 33
      },
      "Salesloft Alt": {
       "avg": 24.8,
@@ -3671,35 +5459,41 @@
       "median": 2.0,
       "over10": 38
      },
+     "US Dialer": {
+      "avg": 37.8,
+      "visits": 42,
+      "median": 6.0,
+      "over10": 33
+     },
+     "Outreach Alt": {
+      "avg": 31.7,
+      "visits": 25,
+      "median": 6.0,
+      "over10": 40
+     },
+     "India Dialer": {
+      "avg": 6.8,
+      "visits": 16,
+      "median": 0.0,
+      "over10": 12
+     },
+     "Parallel Dialer": {
+      "avg": 48.7,
+      "visits": 28,
+      "median": 1.0,
+      "over10": 25
+     },
      "Power Dialer": {
       "avg": 29.8,
       "visits": 7,
       "median": 18.0,
       "over10": 57
      },
-     "Parallel Dialer": {
-      "avg": 45.3,
-      "visits": 32,
-      "median": 1.0,
-      "over10": 28
-     },
-     "US Dialer": {
-      "avg": 40.3,
-      "visits": 50,
-      "median": 6.5,
-      "over10": 38
-     },
-     "Outreach Alt": {
-      "avg": 37.0,
-      "visits": 40,
-      "median": 5.5,
-      "over10": 35
-     },
-     "Orum Alt": {
-      "avg": 24.9,
-      "visits": 11,
-      "median": 3.0,
-      "over10": 36
+     "Global Dialer": {
+      "avg": 24.4,
+      "visits": 14,
+      "median": 11.0,
+      "over10": 50
      }
     }
    },
@@ -3709,63 +5503,63 @@
    "partial": false
   },
   {
-   "visitors": 1471,
-   "visitors_raw": 3422,
+   "visitors": 1354,
+   "visitors_raw": 3470,
    "demos": 8,
-   "trials": 14,
+   "trials": 15,
    "demo_mql": 1,
    "trial_mql": 1,
-   "conv": 1.5,
+   "conv": 1.7,
    "regions": {
     "AMEA": {
-     "visitors": 638,
+     "visitors": 645,
      "demos": 3,
      "trials": 9
     },
     "North America": {
-     "visitors": 574,
+     "visitors": 445,
      "demos": 3,
-     "trials": 3
+     "trials": 4
     },
     "Europe / UK": {
-     "visitors": 178,
+     "visitors": 181,
      "demos": 1,
      "trials": 2
     },
     "Latin America": {
-     "visitors": 79,
+     "visitors": 81,
      "demos": 0,
      "trials": 0
     }
    },
    "sources": {
     "Organic Search (SEO and AEO)": {
-     "visitors": 510,
+     "visitors": 512,
      "demos": 5,
      "trials": 1
     },
     "Direct (source not found)": {
-     "visitors": 740,
+     "visitors": 614,
      "demos": 2,
-     "trials": 8
+     "trials": 9
     },
     "Social Media": {
-     "visitors": 31,
+     "visitors": 33,
      "demos": 0,
      "trials": 0
     },
     "Email": {
-     "visitors": 32,
+     "visitors": 35,
      "demos": 0,
      "trials": 0
     },
     "Referral": {
-     "visitors": 77,
+     "visitors": 79,
      "demos": 0,
      "trials": 3
     },
     "Paid Search (Google Ads)": {
-     "visitors": 139,
+     "visitors": 140,
      "demos": 1,
      "trials": 2
     },
@@ -3775,14 +5569,164 @@
      "trials": 0
     }
    },
+   "region_sources": {
+    "AMEA": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 243,
+      "demos": 2,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 284,
+      "demos": 1,
+      "trials": 5
+     },
+     "Social Media": {
+      "visitors": 21,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 15,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 48,
+      "demos": 0,
+      "trials": 3
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 62,
+      "demos": 0,
+      "trials": 1
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "North America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 141,
+      "demos": 2,
+      "trials": 1
+     },
+     "Direct (source not found)": {
+      "visitors": 233,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 6,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 16,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 20,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 48,
+      "demos": 1,
+      "trials": 1
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Europe / UK": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 97,
+      "demos": 1,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 63,
+      "demos": 0,
+      "trials": 2
+     },
+     "Social Media": {
+      "visitors": 4,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 3,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 12,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 7,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    },
+    "Latin America": {
+     "Organic Search (SEO and AEO)": {
+      "visitors": 32,
+      "demos": 0,
+      "trials": 0
+     },
+     "Direct (source not found)": {
+      "visitors": 33,
+      "demos": 0,
+      "trials": 0
+     },
+     "Social Media": {
+      "visitors": 2,
+      "demos": 0,
+      "trials": 0
+     },
+     "Email": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Referral": {
+      "visitors": 1,
+      "demos": 0,
+      "trials": 0
+     },
+     "Paid Search (Google Ads)": {
+      "visitors": 19,
+      "demos": 0,
+      "trials": 0
+     },
+     "Organic Video": {
+      "visitors": 0,
+      "demos": 0,
+      "trials": 0
+     }
+    }
+   },
    "pages": {
     "Homepage": {
-     "visitors": 697,
+     "visitors": 702,
      "demos": 4,
      "trials": 6
     },
     "SEP Pricing": {
-     "visitors": 131,
+     "visitors": 129,
      "demos": 1,
      "trials": 1
     },
@@ -3792,12 +5736,12 @@
      "trials": 0
     },
     "Connect AI": {
-     "visitors": 29,
+     "visitors": 27,
      "demos": 0,
      "trials": 0
     },
     "Videos (Resources)": {
-     "visitors": 14,
+     "visitors": 10,
      "demos": 0,
      "trials": 0
     },
@@ -3807,37 +5751,37 @@
      "trials": 1
     },
     "Cold Calling": {
-     "visitors": 3,
+     "visitors": 2,
      "demos": 0,
      "trials": 0
     },
     "Outreach Alt": {
-     "visitors": 8,
+     "visitors": 5,
      "demos": 0,
      "trials": 0
     },
     "Apollo Alt": {
-     "visitors": 8,
-     "demos": 0,
-     "trials": 0
-    },
-    "Salesloft Alt": {
-     "visitors": 5,
-     "demos": 0,
-     "trials": 0
-    },
-    "Orum Alt": {
      "visitors": 6,
      "demos": 0,
      "trials": 0
     },
-    "Parallel Dialer": {
+    "Salesloft Alt": {
+     "visitors": 3,
+     "demos": 0,
+     "trials": 0
+    },
+    "Orum Alt": {
      "visitors": 5,
      "demos": 0,
      "trials": 0
     },
+    "Parallel Dialer": {
+     "visitors": 3,
+     "demos": 0,
+     "trials": 0
+    },
     "Nooks Alt": {
-     "visitors": 5,
+     "visitors": 4,
      "demos": 0,
      "trials": 0
     },
@@ -3857,7 +5801,7 @@
      "trials": 0
     },
     "India Dialer": {
-     "visitors": 9,
+     "visitors": 8,
      "demos": 0,
      "trials": 0
     },
@@ -3872,7 +5816,7 @@
      "trials": 0
     },
     "Dynamic Presence": {
-     "visitors": 22,
+     "visitors": 21,
      "demos": 0,
      "trials": 0
     },
@@ -3889,60 +5833,18 @@
    },
    "engagement": {
     "site": {
-     "avg": 35.4,
-     "users": 1334,
-     "visits": 3392,
+     "avg": 30.4,
+     "users": 1316,
+     "visits": 3178,
      "median": 2.0,
-     "over10": 27
+     "over10": 26
     },
     "pages": {
-     "Global Dialer": {
-      "avg": 33.5,
-      "visits": 6,
-      "median": 2.0,
-      "over10": 33
-     },
-     "Apollo Alt": {
-      "avg": 8.6,
-      "visits": 9,
-      "median": 1.0,
-      "over10": 22
-     },
-     "SEP Pricing": {
-      "avg": 37.3,
-      "visits": 262,
-      "median": 2.0,
-      "over10": 29
-     },
-     "Homepage": {
-      "avg": 19.1,
-      "visits": 1722,
-      "median": 1.0,
-      "over10": 16
-     },
-     "India Dialer": {
-      "avg": 24.2,
-      "visits": 17,
-      "median": 4.0,
-      "over10": 24
-     },
-     "Nooks Alt": {
-      "avg": 108.8,
-      "visits": 10,
-      "median": 8.5,
-      "over10": 40
-     },
      "Gong Integration": {
       "avg": 16.6,
       "visits": 12,
       "median": 7.0,
       "over10": 50
-     },
-     "Videos (Resources)": {
-      "avg": 22.1,
-      "visits": 23,
-      "median": 0.0,
-      "over10": 39
      },
      "AI Call Coaching": {
       "avg": 1.2,
@@ -3951,16 +5853,22 @@
       "over10": 0
      },
      "Dynamic Presence": {
-      "avg": 22.7,
-      "visits": 41,
-      "median": 3.0,
-      "over10": 27
+      "avg": 19.6,
+      "visits": 38,
+      "median": 2.0,
+      "over10": 24
      },
-     "Cold Calling": {
-      "avg": 1.3,
-      "visits": 3,
-      "median": 1.0,
-      "over10": 0
+     "Connect AI": {
+      "avg": 17.7,
+      "visits": 43,
+      "median": 2.0,
+      "over10": 23
+     },
+     "Dialer Pricing": {
+      "avg": 40.0,
+      "visits": 121,
+      "median": 2.0,
+      "over10": 32
      },
      "Reply Alt": {
       "avg": 12.0,
@@ -3968,35 +5876,53 @@
       "median": 0.0,
       "over10": 33
      },
-     "Connect AI": {
-      "avg": 16.4,
-      "visits": 45,
-      "median": 2.0,
-      "over10": 22
-     },
-     "Dialer Pricing": {
-      "avg": 38.9,
-      "visits": 119,
-      "median": 2.0,
-      "over10": 31
-     },
-     "Salesloft Alt": {
-      "avg": 35.8,
-      "visits": 8,
-      "median": 3.5,
-      "over10": 38
-     },
-     "Power Dialer": {
-      "avg": 1.0,
-      "visits": 1,
+     "Apollo Alt": {
+      "avg": 12.0,
+      "visits": 7,
       "median": 1.0,
+      "over10": 29
+     },
+     "Homepage": {
+      "avg": 18.5,
+      "visits": 1692,
+      "median": 1.0,
+      "over10": 16
+     },
+     "Orum Alt": {
+      "avg": 22.0,
+      "visits": 8,
+      "median": 9.5,
+      "over10": 50
+     },
+     "Nooks Alt": {
+      "avg": 136.0,
+      "visits": 9,
+      "median": 10.0,
+      "over10": 44
+     },
+     "Videos (Resources)": {
+      "avg": 30.8,
+      "visits": 18,
+      "median": 11.0,
+      "over10": 50
+     },
+     "SEP Pricing": {
+      "avg": 37.9,
+      "visits": 259,
+      "median": 2.0,
+      "over10": 29
+     },
+     "Cold Calling": {
+      "avg": 2.0,
+      "visits": 2,
+      "median": 2.0,
       "over10": 0
      },
-     "Parallel Dialer": {
-      "avg": 5.2,
-      "visits": 5,
-      "median": 4.0,
-      "over10": 20
+     "Salesloft Alt": {
+      "avg": 59.7,
+      "visits": 6,
+      "median": 9.5,
+      "over10": 50
      },
      "US Dialer": {
       "avg": 43.4,
@@ -4005,16 +5931,34 @@
       "over10": 55
      },
      "Outreach Alt": {
-      "avg": 12.4,
-      "visits": 11,
-      "median": 0.0,
-      "over10": 36
+      "avg": 19.8,
+      "visits": 8,
+      "median": 8.5,
+      "over10": 50
      },
-     "Orum Alt": {
-      "avg": 18.3,
-      "visits": 9,
-      "median": 7.0,
-      "over10": 44
+     "India Dialer": {
+      "avg": 26.2,
+      "visits": 15,
+      "median": 4.0,
+      "over10": 27
+     },
+     "Parallel Dialer": {
+      "avg": 6.7,
+      "visits": 3,
+      "median": 4.0,
+      "over10": 33
+     },
+     "Power Dialer": {
+      "avg": 1.0,
+      "visits": 1,
+      "median": 1.0,
+      "over10": 0
+     },
+     "Global Dialer": {
+      "avg": 33.5,
+      "visits": 6,
+      "median": 2.0,
+      "over10": 33
      }
     }
    },
