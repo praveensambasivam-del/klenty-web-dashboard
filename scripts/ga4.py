@@ -50,7 +50,12 @@ def post(path, body, tries=4):
             raise RuntimeError(f"GA4 {e.code}: {e.read().decode()[:300]}")
 
 
+# Only the live site counts. Google Translate's copy of it is real visitors too. Test hosts (localhost, 127.0.0.1, test-*.kl-infra.com) are left out of every report.
+SITE_HOSTS = ["www.klenty.com", "www-klenty-com.translate.goog"]
+
+
 def run(flt, mets, dims, s, e):
+    flt = _and({"filter": {"fieldName": "hostName", "inListFilter": {"values": SITE_HOSTS}}}, flt)
     rows, off = [], 0
     while True:
         body = {"dimensions": [{"name": d} for d in dims], "metrics": [{"name": m} for m in mets],
