@@ -45,9 +45,14 @@ def post(path, body, tries=4):
                                          headers={"Authorization": "Bearer " + token(), "Content-Type": "application/json"})
             return json.load(urllib.request.urlopen(req, timeout=120))
         except urllib.error.HTTPError as e:
-            if e.code in (429, 500, 503) and i < tries - 1:
-                time.sleep(3 * (i + 1)); continue
+            # Google sometimes answers 502/504 or stalls for a moment: try again instead of failing the whole refresh
+            if e.code in (429, 500, 502, 503, 504) and i < tries - 1:
+                time.sleep(5 * (i + 1)); continue
             raise RuntimeError(f"GA4 {e.code}: {e.read().decode()[:300]}")
+        except (urllib.error.URLError, TimeoutError, ConnectionError, OSError) as e:
+            if i < tries - 1:
+                time.sleep(5 * (i + 1)); continue
+            raise RuntimeError(f"GA4 network error: {e}")
 
 
 # Only the live site counts. Google Translate's copy of it is real visitors too. Test hosts (localhost, 127.0.0.1, test-*.kl-infra.com) are left out of every report.
