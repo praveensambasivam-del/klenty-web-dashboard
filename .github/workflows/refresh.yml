@@ -1,9 +1,9 @@
-name: Refresh dashboard (hourly)
+name: Refresh dashboard (every 4 hours)
 
 on:
   schedule:
-    # GitHub delays or skips schedules at busy moments (the start of each hour and half hour), so run at quiet minutes
-    - cron: "12,42 * * * *"
+    # GitHub delays or skips schedules at busy moments (the start of each hour and half hour), so run at a quiet minute
+    - cron: "12 */4 * * *"
   workflow_dispatch:
 
 concurrency:
